@@ -37,7 +37,7 @@ The instructor will then review the pull request and make comments should furthe
 *Question (whu8-stat660): If we are selecting from multiple tables, do we need to write all the related table names in the 'from' clause?
 
 
-*Answer(whu8-stat660): I think the answer is yes.
+*Answer (whu8-stat660): I think the answer is yes.
 
 [Course Structure Quiz, Problem 5]
 
@@ -48,7 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 
 *Question (whu8-stat660): Besides the five achievements, what else do think is also very important in real data analysis work?
 
-*Answer (whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be focused during the analysis process, because small changes could cause huge difference, but when come to the design and interpreting results, big-picture mindset would be more helpful.
+*Answer (whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be very focused and detail-oriented during the analysis process, because even minor changes in data could cause huge difference in result, but when come to the model-design and interpreting results, big-picture mindset would be super helpful.
 
 
 [Course Structure Quiz, Problem 7]
