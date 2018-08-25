@@ -34,7 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Course Structure Quiz, Problem 4]
+[Chapter 1 Performing Queries Using PROC SQL, Problem 4]
 
 *Question (whu8-stat660): If we are selecting from multiple tables, do we need to write all the related table names in the 'from' clause?
 *Answer (whu8-stat660): I think the answer is yes.
