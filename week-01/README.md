@@ -17,49 +17,70 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 1]
+
 *Question (whu8-stat660): Can we create project-group-discussion channel to discuss the group project?
 
 
 
 [Course Structure Quiz, Problem 2]
+
 *Question (whu8-stat660): Will posts after 12 also count for extra credits?
 
 
 
 [Course Structure Quiz, Problem 3]
+
 *Question (whu8-stat660): Where can we see the answers of our quiz especially for the ones we don't know the answer?
 
 
+
 [Chapter 1 Performing Queries Using PROC SQL, Problem 4]
+
 *Question (whu8-stat660): If we are selecting from multiple tables, do we need to write all the related table names in the 'from' clause?
 *Answer (whu8-stat660): I think the answer is yes.
 
+
+
 [Course Structure Quiz, Problem 5]
+
 *Question (whu8-stat660): If we pass the final exam does it mean we are ready for the SAS program certification exams?
 
 
+
 [Course Structure Quiz, Problem 6]
+
 *Question (whu8-stat660): Besides the five achievements, what else do think is also very important in real data analysis work?
+
 *Answer (whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be very focused and detail-oriented during the analysis process, because even minor changes in data could cause huge difference in result, but when come to the model-design and interpreting results, big-picture mindset would be super helpful.
 
 
+
 [Course Structure Quiz, Problem 7]
+
 *Question (whu8-stat660): Could we submit assignments multiple times and get grades based on the latest submission?
 
 
+
 [Course Structure Quiz, Problem 8]
+
 *Question (whu8-stat660): How much extra credit we could get in total? 
 
 
+
 [Course Structure Quiz, Problem 9]
+
 *Question (whu8-stat660):  Do you have a real carrier pigeon? (Just curious:P) 
 
 
+
 [Course Structure Quiz, Problem 10]
+
 *Question (whu8-stat660): Do we need to check Blackboard daily? Does all instructions are posted only in Blackboard? 
 
 
+
 [hello_world Week 1 SAS Recipe]
+
 *Question (whu8-stat660): Compared with R or SQL, what’s the advantage of SAS in data analytics?
 
 *Answer (whu8-stat660): R - R is the lingua franca of statistics. It is a free and open source programming language used to perform advanced data analysis tasks. Python –Python is a multi-purpose, free and open source programming language which has become very popular in data science due to its active community and data mining libraries. SAS – SAS has been the undisputed market leader in the enterprise analytics space. It offers a huge array of statistical functions, has a good GUI for people to learn quickly and provides brilliant technical support.
@@ -67,7 +88,10 @@ SAS is extremely efficient at sequential data access, and database access throug
 
 *Reference*:https://www.datasciencecentral.com/profiles/blogs/r-python-or-sas-which-one-should-you-learn-first
 
+
+
 [fizz_buzz Week 1 SAS Recipe]
+
 *Question (whu8-stat660): How to import data into SAS?
 
 *Answer (whu8-stat660):
