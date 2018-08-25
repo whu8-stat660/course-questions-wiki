@@ -48,7 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 
 *Question (whu8-stat660): Besides the five achievements, what else do think is also very important in real data analysis work?
 
-*Answer(whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be focused during the analysis process, because small changes could cause huge difference, but when come to the design and interpreting results, big-picture mindset would be more helpful.
+*Answer (whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be focused during the analysis process, because small changes could cause huge difference, but when come to the design and interpreting results, big-picture mindset would be more helpful.
 
 
 [Course Structure Quiz, Problem 7]
@@ -75,7 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 
 *Question (whu8-stat660): Compared with R or SQL, what’s the advantage of SAS in data analytics?
 
-*Answer(whu8-stat660): R - R is the lingua franca of statistics. It is a free and open source programming language used to perform advanced data analysis tasks. Python –Python is a multi-purpose, free and open source programming language which has become very popular in data science due to its active community and data mining libraries. SAS – SAS has been the undisputed market leader in the enterprise analytics space. It offers a huge array of statistical functions, has a good GUI for people to learn quickly and provides brilliant technical support.
+*Answer (whu8-stat660): R - R is the lingua franca of statistics. It is a free and open source programming language used to perform advanced data analysis tasks. Python –Python is a multi-purpose, free and open source programming language which has become very popular in data science due to its active community and data mining libraries. SAS – SAS has been the undisputed market leader in the enterprise analytics space. It offers a huge array of statistical functions, has a good GUI for people to learn quickly and provides brilliant technical support.
 SAS is extremely efficient at sequential data access, and database access through SQL is well integrated. The drag-and-drop interface makes it easy for you to create better statistical models quickly.  It has decent functional graphical capabilities, but it’s difficult to create complex graphical plots in SAS.
 
 *Reference*:https://www.datasciencecentral.com/profiles/blogs/r-python-or-sas-which-one-should-you-learn-first
@@ -84,7 +84,7 @@ SAS is extremely efficient at sequential data access, and database access throug
 
 *Question (whu8-stat660): How to import data into SAS?
 
-*Answer(whu8-stat660):
+*Answer (whu8-stat660):
 
 1.Click on the server files and folders in the navigation pane and browse to find the file you wish to import.
 
