@@ -29,13 +29,15 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 
-*Question (whu8-stat660): Where can we see all the answers of our quiz?
+*Question (whu8-stat660): Where can we see the answers of our quiz especially for the ones we don't know the answer?
 
 
-[Course Structure Quiz, Problem 4]
+[Chapter 1 Performing Queries Using PROC SQL, Problem 4]
 
-*Question (whu8-stat660): Where can we see information groups of projects?
+*Question (whu8-stat660): If we are selecting from multiple tables, do we need to write all the related table names in the 'from' clause?
 
+
+*Answer(whu8-stat660): I think the answer is yes.
 
 [Course Structure Quiz, Problem 5]
 
@@ -45,7 +47,6 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 6]
 
 *Question (whu8-stat660): Besides the five achievements, what else do think is also very important in real data analysis work?
-
 
 *Answer(whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be focused during the analysis process, because small changes could cause huge difference, but when come to the design and interpreting results, big-picture mindset would be more helpful.
 
@@ -67,7 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 10]
 
-*Question (whu8-stat660): Do we need to check Blackboard daily? Does all instructions are posted in Blackboard? 
+*Question (whu8-stat660): Do we need to check Blackboard daily? Does all instructions are posted only in Blackboard? 
 
 
 [hello_world Week 1 SAS Recipe]
