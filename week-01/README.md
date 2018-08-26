@@ -32,8 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 4]
-* Question (whu8-stat660): If we are selecting from multiple tables, do we need to write all the related table names in the 'from' clause?
-* Answer (whu8-stat660): I think the answer is yes.
+* Question (whu8-stat660): Where can we find information about the projects?
 
 
 
@@ -82,9 +81,7 @@ SAS is extremely efficient at sequential data access, and database access throug
 
 * Answer (whu8-stat660):First, SAS checks expression-1. What happens next depends on whether or not the condition in expression-1 is
 met. This is why IF-THEN-ELSE statements are sometimes referred to Conditional Processing.If expression-1 is true, SAS executes statement-1 and does NOT check the remaining ELSE IF statements. SAS will then continue to process any additional code following the block of IF-THEN-ELSE statements.
-If expression-1 is false, SAS will move to the next ELSE IF line and check expression-2.
-If expression-2 is true, SAS executes statement-2 and does NOT check the remaining ELSE IF statements. SAS will then continue to process any additional code following the block of IF-THEN-ELSE statements.
-If expression-2 is false, SAS will check the next ELSE IF expression.
-The same process will continue until SAS gets to the last ELSE statement. This last ELSE statement does not have an expression to check, so SAS will execute the THEN statement whenever this line is read. IF-THEN-ELSE statements are processed sequentially, so the only way SAS will execute the last THEN statement is if none of the previous IF and ELSE IF conditions have been met. The final ELSE statement is a good catch-all to make sure all contingencies are accounted for.*Reference*:https://analytics.ncsu.edu/sesug/2013/CC-18.pdf
+If expression-1 is false, SAS will move to the next ELSE IF line and check expression-2.If expression-2 is true, SAS executes statement-2 and does NOT check the remaining ELSE IF statements. SAS will then continue to process any additional code following the block of IF-THEN-ELSE statements.If expression-2 is false, SAS will check the next ELSE IF expression.
+The same process will continue until SAS gets to the last ELSE statement. This last ELSE statement does not have an expression to check, so SAS will execute the THEN statement whenever this line is read. IF-THEN-ELSE statements are processed sequentially, so the only way SAS will execute the last THEN statement is if none of the previous IF and ELSE IF conditions have been met.Reference*:https://analytics.ncsu.edu/sesug/2013/CC-18.pdf
 
 
