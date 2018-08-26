@@ -51,18 +51,19 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 7]
-* Question (yli110-stat660): Please indicate if the following statement is true: the way that the instructor encourages resubmission of incomplete assinments is similar to the feedback from your supervisor in internships.
-* Answer (yli110-stat660): Yes, and feedback is highly important before you become an independent worker.
+* Question (yli110-stat660): Can you compare the incomplete assignment resubmission process to the process of working on a project with your supervisor in an internship setting.
+* Answer (yli110-stat660): For the incomplete assignments, you get notifications from instructor, just like the feedback you get from your supervisor at work, and the feedback is highly important for you to improve before you become an independent worker.
 
 
 
 [Course Structure Quiz, Problem 8]
-* Question (yli110-stat660): Please indicate if the following statement is true: the extra credits are like the extra effort you spent on a project in an internship.
+* Question (yli110-stat660): Can you compare the similarity between extra credits in this course and the extra effort you spent on a project in an internship?
 
 
 
 [Course Structure Quiz, Problem 9]
-* Question (yli110-stat660): Please indicate if the following statement is true: the messages you sent in channels can be seen by everyone in this channel. If you want to communicate with someone in private, you can directly message him or her.
+* Question (yli110-stat660): What is the importance to check slack daily?
+* Answer (yli110-stat660): slack not only gives you the feedback from instructors, but also helps you to take a look at other students' work in which way you learn more from fellow students.
 
 
 
