@@ -72,8 +72,8 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 9]
 * Question (yli110-stat660): What is the importance to check slack daily?
 * Answer (yli110-stat660): slack not only gives you the feedback from instructors, but also helps you to take a look at other students' work in which way you learn more from fellow students.
-* Question (mphan12-stat660): Can we still email you at isaiah.lankham@csueastbay.edu?
-* Answer (mphan12-stat660): Yes, the Professor is reachable by email at isaiah.lankham@csueastbay.edu.
+* Question (mphan12-stat660): Can we still email the instructor?
+* Answer (mphan12-stat660): Yes, the Professor is reachable by email.
 
 
 
