@@ -29,19 +29,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Course Textbook Chapter 2, Problem 4]
-
-
-
 [Course Textbook Chapter 2, Problem 5]
 
 
 
 [Course Textbook Chapter 2, Problem 8]
-
-
-
-[Course Textbook Chapter 3, Problem 2]
 
 
 
@@ -53,15 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Course Textbook Chapter 3, Problem 7]
-
-
-
 [Course Textbook Chapter 4, Problem 1]
-
-
-
-[Course Textbook Chapter 4, Problem 2]
 
 
 
@@ -74,10 +58,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 4, Problem 5]
-
-
-
-[Course Textbook Chapter 4, Problem 6]
 
 
 
