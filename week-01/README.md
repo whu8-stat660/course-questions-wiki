@@ -20,6 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What is an easy way for github to access files on your local computer?
 * Answer (yli110-stat660): github desktop
 * Question (mphan12-stat660): When posting screenshots, should we screenshot the entire desktop or only relevant snap-its of our screen?
+* Question (whu8-stat660): Can we create project-group-discussion channel to discuss the group project?
 
 
 
@@ -27,6 +28,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What are the two common ways of using Github? In other words, what are the names of the two workflow?
 * Answer (yli110-stat660): Feature-branch workflow, fork and branch workflow
 * Question (mphan12-stat660): Can students quote articles from websites that are not listed?
+* Question (whu8-stat660): Will posts after 12 also count for extra credits?
 
 
 
@@ -34,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): How do you submit the weekly quizzes? This is the similar way to work with teammates in a project.
 * Answer (yli110-stat660): Through github. You need to first fork the intructor's repo and then create your own branch in your own version of the forked repo. After editing README file, pull request to merge with the intructor's repo.
 * Question (mphan12-stat660): Are quiz questions typically multiple choice and fill in missing words?
+* Question (whu8-stat660): Where can we see the answers of our quiz especially for the ones we don't know the answer?
 
 
 
@@ -41,18 +44,22 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): Which is the github workflow you use to work on an existing repo on Github?
 * Answer (yli110-stat660): fork and branch
 * Question (mphan12-stat660): How are teams selected?
+* Question (whu8-stat660): Where can we find information about the projects?
 
 
 
 [Course Structure Quiz, Problem 5]
 * Question (yli110-stat660): What's the "output" window for in SAS 9.4? Should you turn it off?
 * Question (mphan12-stat660): Are some of the weekly quiz questions taken from prior SAS Base Programming Exams?
+* Question (whu8-stat660): If we pass the final exam does it mean we are ready for the SAS program certification exams?
 
 
 
 [Course Structure Quiz, Problem 6]
 * Question (yli110-stat660): How to create new channels on Slack?
 * Question (mphan12-stat660): In the past, what percentage of students get A+ in this course?
+* Question (whu8-stat660): Besides the five achievements, what else do think is also very important in real data analysis work?
+* Answer (whu8-stat660):One thing I could think about is that to be successful in real analysis work, data analyst needs to be both detail-oriented and big-picture. We need to be very focused and detail-oriented during the analysis process, because even minor changes in data could cause huge difference in result, but when come to the model-design and interpreting results, big-picture mindset would be super helpful.
 
 
 
@@ -60,12 +67,14 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): Can you compare the incomplete assignment resubmission process to the process of working on a project with your supervisor in an internship setting.
 * Answer (yli110-stat660): For the incomplete assignments, you get notifications from instructor, just like the feedback you get from your supervisor at work, and the feedback is highly important for you to improve before you become an independent worker.
 * Question (mphan12-stat660): Is there a limit in resubmitting incomplete assignments by a student?
+* Question (whu8-stat660): Could we submit assignments multiple times and get grades based on the latest submission?
 
 
 
 [Course Structure Quiz, Problem 8]
 * Question (yli110-stat660): Can you compare the similarity between extra credits in this course and the extra effort you spent on a project in an internship?
 * Question (mphan12-stat660): What is the maximum extra credit allowance?
+* Question (whu8-stat660): How much extra credit we could get in total? 
 
 
 
@@ -74,12 +83,14 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): slack not only gives you the feedback from instructors, but also helps you to take a look at other students' work in which way you learn more from fellow students.
 * Question (mphan12-stat660): Can we still email the instructor?
 * Answer (mphan12-stat660): Yes, the Professor is reachable by email.
+* Question (whu8-stat660):  Do you have a real carrier pigeon? (Just curious:P) 
 
 
 
 [Course Structure Quiz, Problem 10]
 * Question (yli110-stat660): Do you get notification in your email that connects to github when review comments come back?
 * Question (mphan12-stat660): Why is it necessary to check GitHub daily?
+* Question (whu8-stat660): Do we need to check Blackboard daily? Does all instructions are posted only in Blackboard? 
 
 
 
@@ -88,6 +99,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): It prevents any dataset being outputed.
 * Question (mphan12-stat660): Can single quotes instead of double quotes be used on character string?
 * Answer (mphan12-stat660): Yes, single quotes can also be used in data step.  However, they will not work for macros contraint in string text.
+* Question (whu8-stat660): Compared with R or SQL, what’s the advantage of SAS in data analytics?
+* Answer (whu8-stat660): R is the lingua franca of statistics. It is a free and open source programming language used to perform advanced data analysis tasks. Python is a multi-purpose, free and open source programming language which has become very popular in data science due to its active community and data mining libraries. SAS has been the undisputed market leader in the enterprise analytics space. It offers a huge array of statistical functions, has a good GUI for people to learn quickly and provides brilliant technical support.SAS is extremely efficient at sequential data access, and database access through SQL is well integrated.The drag-and-drop interface makes it easy for you to create better statistical models quickly. It has decent functional graphical capabilities in SAS.(*Reference*:https://www.datasciencecentral.com/profiles/blogs/r-python-or-sas-which-one-should-you-learn-first)
 
 
 
@@ -96,5 +109,7 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): mod(a,b) returns the remainder of the division of a/b.
 * Question (mphan12-stat660): Would “mod(i,15)=0” achieve the same results as “mod(i,3)=0 and mod(i,5)=0”?
 * Answer (mphan12-stat660): Yes, “mod(i,15)=0” and “mod(i,3)=0 and mod(i,5)=0” are the same.
+* Question (whu8-stat660):How would SAS process the if-then-else statement?
+* Answer (whu8-stat660):First, SAS checks expression-1. What happens next depends on whether or not the condition in expression-1 is met. This is why IF-THEN-ELSE statements are sometimes referred to Conditional Processing.If expression-1 is true, SAS executes statement-1 and does NOT check the remaining ELSE IF statements. SAS will then continue to process any additional code following the block of IF-THEN-ELSE statements.If expression-1 is false, SAS will move to the next ELSE IF line and check expression-2.If expression-2 is true, SAS executes statement-2 and does NOT check the remaining ELSE IF statements. SAS will then continue to process any additional code following the block of IF-THEN-ELSE statements.If expression-2 is false, SAS will check the next ELSE IF expression. This last ELSE statement does not have an expression to check, so SAS will execute the THEN statement whenever this line is read. IF-THEN-ELSE statements are processed sequentially, so the only way SAS will execute the last THEN statement is if none of the previous IF and ELSE IF conditions have been met.(*Reference*:https://analytics.ncsu.edu/sesug/2013/CC-18.pdf)
 
 
