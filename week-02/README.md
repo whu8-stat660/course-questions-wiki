@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 2, Problem 1]
-- Question (mphan12-stat660): What are the SAS names for columns, rows, and table?
+- Question (mphan12-stat660): What are the SAS names for column, row, and table?
 - Answer (mphan12-stat660): Column = Variable, Row = Observation/Record, and Table = Dataset.
 
 
@@ -31,25 +31,25 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 2, Problem 3]
 - Question (mphan12-stat660): When is a variable considered numeric?
-- Answer (mphan12-stat660): Numeric value contain only numeric values (the numerals 0 through 9, +, -, ., and E for scientific notation).  Else the variable is considered character.  You can also tell if the values in the column are left aligned.
+- Answer (mphan12-stat660): Numeric value contain only numeric values (the numerals 0 through 9, +, -, ., and E for scientific notation).  Else the variable is character.  You can also tell if the variable is numeric when the values in the column are left aligned.
 
 
 
 [Course Textbook Chapter 2, Problem 5]
 - Question (mphan12-stat660): What does the option VALIDVARNAME=ANY do?
-- Answer (mphan12-stat660): The VALIDVARNAME specifies the rules for valid SAS variable names that can be created and processed during a SAS session. Setting it to ANY, will allow SAS to overwrite the system default settings on variable names.
+- Answer (mphan12-stat660): The VALIDVARNAME specifies the rules for valid SAS variable names that can be created and processed during a SAS session. Setting it to ANY will allow SAS to overwrite the system default settings.
 
 
 
 [Course Textbook Chapter 2, Problem 8]
 - Question (mphan12-stat660): What is the default length for the numeric variable?
-- Answer (mphan12-stat660): Numeric variable default length is 8 bytes.
+- Answer (mphan12-stat660): Numeric variable default length is 8 bytes. But you can have a number with 16 or 17 in length.
 
 
 
 [Course Textbook Chapter 3, Problem 5]
 - Question (mphan12-stat660): How do you identify permanent dataset?
-- Answer (mphan12-stat660):  If you see two-level name joined by a period, and the first word is not locwork or work, then the permanent dataset name is the second latter name, i.e. library.dataset.
+- Answer (mphan12-stat660):  If you see two-level name joined by a period, and the first word is not locwork or work, then the permanent dataset name is the second latter word of the two-level, i.e. mylib.mydata where mydata is the permanent dataset.
 
 
 
@@ -61,7 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 4, Problem 1]
 - Question (mphan12-stat660): What are the two steps that should not be indented?
-- Answer (mphan12-stat660):  PROC and DATA steps and the corresponding RUN/QUIT should always start in the first space of a line, i.e. never indented.
+- Answer (mphan12-stat660):  PROC and DATA steps and the corresponding RUN/QUIT should always start in the first space of a line, i.e. never indented. Note that proc statements don't require run, but it is good practice to add it.
 
 
 
@@ -103,7 +103,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Week 2 SAS Recipe: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file]
 - Question (mphan12-stat660):When invoking the macro %loadDataIfNotAlreadyAvailable, the semicolon is not presented, why did SAS not error out?
-- Answer (mphan12-stat660): This is because the semicolon is **NOT** required for calling macros, so it just gets left behind and included in the execution of the step.  When you call a self contain macro, i.e. not in data or proc step, it's fine to include the semicolon. Here's an example where the semicolon should not be added after calling the macro:
+- Answer (mphan12-stat660): This is because the semicolon is **NOT** required for calling macros.  When you call a self contained macro, i.e. not in data or proc steps, it is fine to include the semicolon. Here is an example where the semicolon should not be added after calling the macro:
   - proc sql;
   -  select %field_list()  
   -  from sashelp.class ;  
