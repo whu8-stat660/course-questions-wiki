@@ -18,56 +18,53 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 2, Problem 1]
-- Question (whu8-stat660): How to eliminating duplicate rows from output?
-- Answer(whu8-stat660):We can eliminate duplicate rows from your query results by using the keyword DISTINCT in the SELECT clause.
+- Question (whu8-stat660): Although all kinds data can be used in SAS, only the SAS data set can be processed in SAS program?
+- Answer(whu8-stat660): Yes. Although SAS supports all kinds of raw data files such as excel and etc, these raw data files need to covert to SAS data set for further analysis in SAS.
 
 
 
 [Course Textbook Chapter 2, Problem 2]
-- Question (whu8-stat660): If we want to use group by, aggregation function is a must-have in select clause?
-- Answer(whu8-stat660):I think the answer is yes.
+- Question (whu8-stat660): What’s step boundaries?
+- Answer(whu8-stat660): Every step has a beginning and ending boundary, these are the step boundaries.
 
 
 
 [Course Textbook Chapter 2, Problem 3]
-- Question (whu8-stat660): Can a macro load sever times with different data value?
-- Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
+- Question (whu8-stat660): Are character and numeric the only two data value types accepted in SAS data set?
+- Answer(whu8-stat660):Yes.
 
 
 
 [Course Textbook Chapter 2, Problem 5]
-- Question (whu8-stat660): What are the conditions which would cause remerging?
-- Answer(whu8-stat660):Remerging occurs whenever any of the following conditions exist:The values returned by a summary function are used in a calcuation;the select clause specifies a column that contains a summary function and other columns that are not listed in group by clasue;the having clause specifies one or more columns or column expressions that are not included in a subquery or a group by clause.
+- Question (whu8-stat660): What are the requirements for variable names in SAS?
 
 
 
 [Course Textbook Chapter 2, Problem 8]
-- Question (whu8-stat660): If we select different variables from different tables, do we need to specify all the related tables in the from clause?
-- Answer(whu8-stat660):I think the answer is yes.
-
+- Question (whu8-stat660): Is the length for numeric variable are fixed?
+- Answer(whu8-stat660):Yes, it's 8 bytes.
 
 
 [Course Textbook Chapter 3, Problem 5]
-- Question (whu8-stat660):What is Cartesian product?
-- Answer(whu8-stat660):In a Cartesian product, each row in the first table is combined with every row in the second table.
+- Question (whu8-stat660):- Question (whu8-stat660): What’s the difference between temporary and Permanente library? 
 
 
 
 [Course Textbook Chapter 3, Problem 6]
-- Question (whu8-stat660): What is a full outer join?
-- Answer(whu8-stat660):A full outer join retrieves both matching rows and nonmatching rows from both tables.
+- Question (whu8-stat660): What’s the highest level of organization for information within SAS?
+- Answer(whu8-stat660):Library.
 
 
 
 [Course Textbook Chapter 4, Problem 1]
-- Question (whu8-stat660): Does union have the same function as full outer join?
-- Answer(whu8-stat660): I think so.
+- Question (whu8-stat660): Can we omit run statements?
+- Answer(whu8-stat660): Yes, but it's better to have.
 
 
 
 [Course Textbook Chapter 4, Problem 3]
-- Question (whu8-stat660): What is a SAS data set?
-- Answer(whu8-stat660): SAS data sets are specific to SAS. A SAS data set is data in a form that SAS can understand. Like raw data files, SAS data sets contain data. But in SAS data sets, the data is created only by SAS and can be read only by SAS.
+- Question (whu8-stat660): What would happen if you have unequal quotations in the codes?
+- Answer(whu8-stat660): The program would not be excuted, and an error message would show in the log.
 
 
 
@@ -78,8 +75,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 4, Problem 5]
-- Question (whu8-stat660): What’s the difference between two types of comments?
-- Answer(whu8-stat660):There are two types of comments: block comments and comment statements. The block comments can be any length, and can contains semicolons. But they can’t be nested. You should avoid placing block comment symbols in the first or second columns. While comment statements are complete statements which could start in the first or second columns, and  they can’t contain internal semicolons.
+- Question (whu8-stat660): What’s the syntax error in SAS?
+
 
 
 
@@ -90,8 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 4, Problem 9]
-- Question (whu8-stat660): What is set operation?
-- Answer(whu8-stat660): A set operation combines tables or views vertically by combing the results of two queries.A set operation is a SELECT statement that contains two queries,one of the set operators and one or both of the keywords ALL and CORR as modifiers.
+- Question (whu8-stat660): What’s the difference between two types of comments?
+- Answer(whu8-stat660):There are two types of comments: block comments and comment statements. The block comments can be any length, and can contains semicolons. But they can’t be nested. You should avoid placing block comment symbols in the first or second columns. While comment statements are complete statements which could start in the first or second columns, and  they can’t contain internal semicolons.
 
 
 
