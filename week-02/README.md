@@ -25,37 +25,37 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 2, Problem 2]
 - Question (whu8-stat660): If we want to use group by, aggregation function is a must-have in select clause?
--Answer(whu8-stat660):I think the answer is yes.
+- Answer(whu8-stat660):I think the answer is yes.
 
 
 
 [Course Textbook Chapter 2, Problem 3]
 - Question (whu8-stat660): Can a macro load sever times with different data value?
--Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
+- Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
 
 
 
 [Course Textbook Chapter 2, Problem 5]
 - Question (whu8-stat660): What are the conditions which would cause remerging?
--Answer(whu8-stat660):Remerging occurs whenever any of the following conditions exist:The values returned by a summary function are used in a calcuation;the select clause specifies a column that contains a summary function and other columns that are not listed in group by clasue;the having clause specifies one or more columns or column expressions that are not included in a subquery or a group by clause.
+- Answer(whu8-stat660):Remerging occurs whenever any of the following conditions exist:The values returned by a summary function are used in a calcuation;the select clause specifies a column that contains a summary function and other columns that are not listed in group by clasue;the having clause specifies one or more columns or column expressions that are not included in a subquery or a group by clause.
 
 
 
 [Course Textbook Chapter 2, Problem 8]
 - Question (whu8-stat660): If we select different variables from different tables, do we need to specify all the related tables in the from clause?
--Answer(whu8-stat660):I think the answer is yes.
+- Answer(whu8-stat660):I think the answer is yes.
 
 
 
 [Course Textbook Chapter 3, Problem 5]
 - Question (whu8-stat660):What is Cartesian product?
--Answer(whu8-stat660):In a Cartesian product, each row in the first table is combined with every row in the second table.
+- Answer(whu8-stat660):In a Cartesian product, each row in the first table is combined with every row in the second table.
 
 
 
 [Course Textbook Chapter 3, Problem 6]
 - Question (whu8-stat660): What is a full outer join?
--Answer(whu8-stat660):A full outer join retrieves both matching rows and nonmatching rows from both tables.
+- Answer(whu8-stat660):A full outer join retrieves both matching rows and nonmatching rows from both tables.
 
 
 
@@ -103,6 +103,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [Week 2 SAS Recipe: bonus_advanced_recipe_for_loading_data_from_remote_Excel_file]
 - Question (whu8-stat660): Can a macro load sever times with different data value?
--Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
+- Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
 
 
