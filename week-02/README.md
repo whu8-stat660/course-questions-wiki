@@ -19,7 +19,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 2, Problem 1]
 - Question (whu8-stat660): How to eliminating duplicate rows from output?
--Answer(whu8-stat660):We can eliminate duplicate rows from your query results by using the keyword DISTINCT in the SELECT clause.
+- Answer(whu8-stat660):We can eliminate duplicate rows from your query results by using the keyword DISTINCT in the SELECT clause.
 
 
 
