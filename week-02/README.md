@@ -26,6 +26,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): a descriptor portion and a data portion. 
 - Question (anguyen152-stat660):What are "observations" and "variables?"
 - Answer (anguyen152-stat660):"Observations" can be counted as "rows" and "variables" can be counted as "columns" 
+- Question (whu8-stat660): Although all kinds data can be used in SAS, only the SAS data set can be processed in SAS program?
+- Answer(whu8-stat660): Yes. Although SAS supports all kinds of raw data files such as excel and etc, these raw data files need to covert to SAS data set for further analysis in SAS.
 
 
 
@@ -38,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): A DATA or PROC step indicates the previous step ends. Besides, RUN and QUIT statement means the step to stop.
 - Question (anguyen152-stat660): What is the purpose of the 2nd line "infile jobs;" ? 
 - Answer (anguyen152-stat660): INFILE statement identifies the file to read. In this case, "table" is the input dataset and "jobs" is the file to read. 
+- Question (whu8-stat660): What’s step boundaries?
+- Answer(whu8-stat660): Every step has a beginning and ending boundary, these are the step boundaries.
 
 
 
@@ -48,6 +52,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): How does SAS treat a string of numbers if they are put into a quotation mark?
 * Answer (yli110-stat660): As character
 - Question (anguyen152-stat660):What are the differences between numeric and character variables? 
+- Question (whu8-stat660): Are character and numeric the only two data value types accepted in SAS data set?
+- Answer(whu8-stat660):Yes.
 
 
 
@@ -58,6 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jduan10-stat660): No, the names cannot contain any null bytes.
 *  Question (yli110-stat660): What is a valid variable name in SAS?
 - Question (anguyen152-stat660): What makes a valid variable name in SAS ?
+- Question (whu8-stat660): What are the requirements for variable names in SAS?
 
 
 
@@ -68,6 +75,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jduan10-stat660): 32767 bytes long.
 * Question (yli110-stat660): How long can a character variable be?
 - Question (anguyen152-stat660): Can we define the length for numeric variables ? and how ? 
+- Question (whu8-stat660): Is the length for numeric variable are fixed?
+- Answer(whu8-stat660):Yes, it's 8 bytes.
 
 
 
@@ -84,6 +93,7 @@ The instructor will then review the pull request and make comments should furthe
     if totalsales>50000; 
 run;
 ```
+- Question (whu8-stat660):- Question (whu8-stat660): What’s the difference between temporary and Permanente library? 
 
 
 
@@ -93,6 +103,8 @@ run;
 - Question (jduan10-stat660): Does the value of the YEARCUTOFF= system option affect only two-digit year values?
 * Question (yli110-stat660): Why do you have to specify YEARCUTOFF sometimes when interpreting two-digit year values?
 - Question (anguyen152-stat660):What is the YEARCUTOFF option used for ?
+- Question (whu8-stat660): What’s the highest level of organization for information within SAS?
+- Answer(whu8-stat660):Library.
 
 
 
@@ -102,6 +114,8 @@ run;
 - Question (jduan10-stat660): Does the new steps in SAS programming always begin with DATA or PROC statements?
 * Question (yli110-stat660): Despite the fact that SAS is free-format language, what is the best way to write a complete step?
 - Question (anguyen152-stat660):Why indentation should be paid intention to while SAS programming?
+- Question (whu8-stat660): Can we omit run statements?
+- Answer(whu8-stat660): Yes, but it's better to have.
 
 
 
@@ -111,6 +125,8 @@ run;
 - Question (jduan10-stat660): Is the PROC PRINT statement only followed by “data=xxxxx;”?
 * Question (yli110-stat660): How does SAS treat missing quotation marks?
 - Question (anguyen152-stat660): Can I find the answer to this problem without understanding every code line ?
+- Question (whu8-stat660): What would happen if you have unequal quotations in the codes?
+- Answer(whu8-stat660): The program would not be excuted, and an error message would show in the log.
 
 
 
@@ -121,6 +137,8 @@ run;
 - Answer (jduan10-stat660): Syntax errors occur when program statements do not conform to the rules of the SAS language.
 * Question (yli110-stat660): What is the difference between syntax error and logic error?
 - Question (anguyen152-stat660):How are syntax errors reported in SAS programs ?
+- Question (whu8-stat660): What’s global statements?
+- Answer(whu8-stat660):Global statements generally provide information to SAS, request information or data, move between different modes of execution, or set values for system options. You can use global statements anywhere in a SAS program. Global statements are not executable; they take effect as soon as SAS compiles program statements
 
 
 
@@ -131,6 +149,7 @@ run;
 * Question (yli110-stat660): What will the SAS log show if you put an invalid option in a SAS statement?
 - Question (anguyen152-stat660): What are common types of syntax errors in SAS ? 
 - Answer (anguyen152-stat660): These are common syntax errors in SAS: misspelled SAS keyword, unmatched quotation marks, missing a semicolon, invalid statement option, invalid data set option.
+- Question (whu8-stat660): What’s the syntax error in SAS?
 
 
 
@@ -141,6 +160,8 @@ run;
 * Question (yli110-stat660): What does the SAS log message show if you have a typo in a SAS keyword?
 - Question (anguyen152-stat660):Are typos errors automatically detected in SAS ?
 - Answer (anguyen152-stat660): No
+- Question (whu8-stat660): Although all kinds data can be used in SAS, only the SAS data set can be processed in SAS program?
+- Answer(whu8-stat660): Yes. Although SAS supports all kinds of raw data files such as excel and etc, these raw data files need to covert to SAS data set for further analysis in SAS.
 
 
 
@@ -150,6 +171,8 @@ run;
 - Question (jduan10-stat660): Can I just add another quotation mark in the steps to stop the DATA STEP RUNNING message?
 * Question (yli110-stat660): What happened if you forgot to end a PROC step?
 - Question (anguyen152-stat660):What to do if the active window displays the message DATA step running for a long time?
+- Question (whu8-stat660): What’s the difference between two types of comments?
+- Answer(whu8-stat660):There are two types of comments: block comments and comment statements. The block comments can be any length, and can contains semicolons. But they can’t be nested. You should avoid placing block comment symbols in the first or second columns. While comment statements are complete statements which could start in the first or second columns, and  they can’t contain internal semicolons.
 
 
 
@@ -159,6 +182,8 @@ run;
 - Question (jduan10-stat660): Does the filename need to be 8 character under all conditions?
 * Question (yli110-stat660): What does PROC HTTP do?
 - Question (anguyen152-stat660):Can we edit the dataset after imported ?
+- Question (whu8-stat660): Why do we need to clear the file ref?
+- Answer(whu8-stat660): This allows sex in particular to free up the file name and the temporary storage location in order to better use resources and not create the possibility of some type of memory leak.
 
 
 
@@ -173,5 +198,7 @@ run;
 - Answer (jduan10-stat660): This symbol is used to revoke marco command.
 * Question (yli110-stat660): What's the advantage of using Macro variables in SAS?
 - Question (anguyen152-stat660):Are macros in SAS of the same use as functions in C++ ? How often is macro used in SAS ?
+- Question (whu8-stat660): Can a macro load sever times with different data value?
+- Answer(whu8-stat660):I think the answer is yes, we can call macro as many time as we want, we could also load different values to macro variables each time we call.
 
 
