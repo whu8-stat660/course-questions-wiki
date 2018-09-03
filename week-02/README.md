@@ -45,10 +45,10 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 5]
 - Question (anguyen152-stat660):What is the "set" command used for ? for example:
-"data mysales.totals; 
+```data mysales.totals; 
     set sales_99.salesanalysis; 
     if totalsales>50000; 
-run;"
+run;```
 
 
 
