@@ -60,13 +60,25 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 3 SAS Recipe: recipe_to_check_for_duplicates]
+- Question (mphan12-stat660): How do you get the pairs of duplicate?
+- Answer (mphan12-stat660): You can get duplicate pair by using the dupout statement:
+- - proc sort nodupkey
+- - -  data=FRPM1516_raw
+- - -  out=_null_
+- - -  dupout= _dup_    ;
+- - - by County_Code District_Code School_Code    ;
+- - run;
 
 
 
 [Week 3 SAS Recipe: recipe_for_sorting_data]
+- Question (mphan12-stat660): What does the descending option do?
+- Answer (mphan12-stat660): Sorts by largest to smallest, or z to a on the variables in the by statement.
 
 
 
 [Week 3 SAS Recipe: recipe_for_printing_values]
+- Question (mphan12-stat660): What does ID statement do? 
+- Answer (mphan12-stat660): ID statement specifies one or more variables to print instead of the observation number at the beginning of each row of the report.
 
 
