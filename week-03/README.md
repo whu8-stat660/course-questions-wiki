@@ -18,26 +18,44 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
+- Question (mphan12-stat660): Why is the label option turned on, yet the columns are still column names rather than label names in the table?
 
 
 
 [Course Textbook Chapter 5, Problem 3]
+- Question (mphan12-stat660): What is another way of select RANCH, SPLIT, or TWOSTORY?
+- Answer (mphan12-stat660): Where style = 'RANCH' or style = 'SPLIT' or style = 'TWOSTORY'
 
 
 
 [Course Textbook Chapter 5, Problem 4]
+- Question (mphan12-stat660): How is the data set saved if out=calc instead of out= work.calc?
+- Answer (mphan12-stat660): The calc data set will still be created in the temporary directory work.
 
 
 
 [Course Textbook Chapter 5, Problem 7]
+- Question (mphan12-stat660): What correction must be made to have this script run without error?
+- Answer (mphan12-stat660): The code should read: 
+- - proc sort data=clinic.diabetes;
+ - - - by age;
+- - run;
+- - proc print data=clinic.diabetes;
+ - - - var age height weight pulse;
+ - - - where sex='F';
+- - run;
 
 
 
 [Course Textbook Chapter 5, Problem 9]
+- Question (mphan12-stat660): What should you consider when writing mathematical expression?
+- Answer (mphan12-stat660): Order of operation matters, apply PEMDAS rule in SAS. 
 
 
 
 [Course Textbook Chapter 5, Problem 10]
+- Question (mphan12-stat660): What does PROC PRINT display by default?
+- Answer (mphan12-stat660): PROC PRINT displays all observations and variables in the data set, a column for observation numbers on the far left, and variables in the order in which they occur in the data set.
 
 
 
