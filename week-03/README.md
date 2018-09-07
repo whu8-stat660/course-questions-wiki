@@ -32,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): Is semicolon needed between 'data' and 'out' statements? 
 - Answer (whu8-stat660): Semicolon is not allowed between 'data' and 'out' statements.
 
+
+
 [Course Textbook Chapter 5, Problem 7]
 - Question (whu8-stat660):Is 'by' statement necessary when using sort function?
 - Answer (whu8-stat660): Yes. 
