@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): Why is the label option turned on, yet the columns are still column names rather than label names in the table?
 - Question (yli110-stat660): In the proc print procedure, what is the difference between ID statement and VAR statement?
 - Answer (yli110-stat660): VAR lists the variables of the data set to be printed with obs (row number) at the far left, whereas ID lists the variables showing on the far left instead of obs.
+- Question (whu8-stat660): Is observation number a default column in SAS?
 
 
 
@@ -29,6 +30,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): Where style = 'RANCH' or style = 'SPLIT' or style = 'TWOSTORY'
 - Question (yli110-stat660): What does IN operator do in the WHERE statement?
 - Answer (yli110-stat660): In the WHERE statement, the IN operator enables yout to select variables based on several values.
+- Question (whu8-stat660): What’s the difference between "in" and "="?
+- Answer (whu8-stat660): They are used in different cases, '=' is used for a single value while 'in' is used for multiple values.
 
 
 
@@ -37,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The calc data set will still be created in the temporary directory work.
 - Question (yli110-stat660): What does the OUT= option do in the PROC SORT step?
 - Answer (yli110-stat660): In PROC SORT step, the OUT= option specifies the outputed sorted data set. Without OUT= option, the original data set will be sorted.
+- Question (whu8-stat660): Is semicolon needed between 'data' and 'out' statements? 
+- Answer (whu8-stat660): Semicolon is not allowed between 'data' and 'out' statements.
 
 
 
@@ -51,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
  - - - where sex='F';
 - - run;
 - Question (yli110-stat660): What happens if there's no BY statement in a PROC SORT step?
+- Question (whu8-stat660):Is 'by' statement necessary when using sort function?
+- Answer (whu8-stat660): Yes. 
 
 
 
@@ -58,6 +65,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What should you consider when writing mathematical expression?
 - Answer (mphan12-stat660): Order of operation matters, apply PEMDAS rule in SAS. 
 - Question (yli110-stat660): How to select rows based on several conditions?
+- Question (whu8-stat660):If there are mulitiple "and","or",what would be the sequence of process?
+- Answer (whu8-stat660): SAS will process the command by input sequence.
 
 
 
@@ -65,6 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What does PROC PRINT display by default?
 - Answer (mphan12-stat660): PROC PRINT displays all observations and variables in the data set, a column for observation numbers on the far left, and variables in the order in which they occur in the data set.
 - Question (yli110-stat660): In the PROC PRINT step, how do you select columns and how do you select rows to be printed?
+- Question (whu8-stat660):Will the second 'proc print' overwrite the result before?
 
 
 
@@ -78,6 +88,8 @@ The instructor will then review the pull request and make comments should furthe
 - - - by County_Code District_Code School_Code    ;
 - - run;
 - Question (yli110-stat660): What are the definitions of duplicates in a SAS data set?
+- Question (whu8-stat660):Is 'nodupkey' a global statement? 
+- Answer (whu8-stat660): It's not a global statement.
 
 
 
@@ -85,6 +97,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What does the descending option do?
 - Answer (mphan12-stat660): Sorts by largest to smallest, or z to a on the variables in the by statement.
 - Question (yli110-stat660): What happens if you don't specify OUT= option in a PROC SORT step? Is it good practice to do so? Why or why not?
+- Question (whu8-stat660):What’s the default sort order in SAS?
+- Answer (whu8-stat660): Ascending.
 
 
 
@@ -92,5 +106,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What does ID statement do? 
 - Answer (mphan12-stat660): ID statement specifies one or more variables to print instead of the observation number at the beginning of each row of the report.
 - Question (yli110-stat660): Instead of PROC PRINT, what is the best way to look at a SAS data set interactively?
+- Question (whu8-stat660):What are the two methods to check a data set information in SAS?
+- Answer (whu8-stat660): 'Porc print' statement and explore function.
 
 
