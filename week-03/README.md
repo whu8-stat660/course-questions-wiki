@@ -67,3 +67,4 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):What are the two methods to check a data set information in SAS?
 - Answer (whu8-stat660): 'Porc print' statement and explore function.
 
+
