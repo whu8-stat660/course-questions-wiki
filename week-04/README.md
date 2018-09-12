@@ -18,26 +18,36 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 8, Problem 3]
+* Question (yli110-stat660): What are rules for a format name to be valid in SAS?
+* Answer (yli110-stat660):It must begin with a dollar sign if applies to character data, must be a valid SAS name, cannot be the name of an existing SAS format, cannot end in a number or period, can be up to 32 (numeric) or 31 (character) long.
 
 
 
 [Course Textbook Chapter 8, Problem 4]
+* Question (yli110-stat660): How does VALUE range specifies character values?
+* Answer (yli110-stat660): In quotation marks.
 
 
 
 [Course Textbook Chapter 8, Problem 5]
+* Question (yli110-stat660): Why cannot VALUE range specifies both character values or numeric values?
+* Answer (yli110-stat660): Because formats themselves are either character or numeric.
 
 
 
 [Course Textbook Chapter 8, Problem 6]
+* Question (yli110-stat660): What is the length limit for a label in quotation marks?
+* Answer (yli110-stat660): 256
 
 
 
 [Course Textbook Chapter 8, Problem 7]
+* Question (yli110-stat660): What is the difference of LOW when applies to numeric values and character values?
 
 
 
 [Course Textbook Chapter 8, Problem 8]
+* Question (yli110-stat660): How do you permanently associate the formats with variables?
 
 
 
