@@ -52,26 +52,32 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 9, Problem 1]
+* Question (yli110-stat660): what are the default statistics produced by PROC MEANS?
 
 
 
 [Course Textbook Chapter 9, Problem 2]
+* Question (yli110-stat660): How do you specify the variables to be summarized in PROC MEANS?
 
 
 
 [Course Textbook Chapter 9, Problem 4]
+* Question (yli110-stat660): What is the difference between CLASS statement and BY statement?
 
 
 
 [Course Textbook Chapter 9, Problem 7]
+* Question (yli110-stat660): What type of variables are suitable for producing frequency tables?
 
 
 
 [Course Textbook Chapter 9, Problem 8]
+* Question (yli110-stat660): Why are coninuous varaibles not suitable for producing frequency tables?
 
 
 
 [Course Textbook Chapter 9, Problem 10]
+* Question (yli110-stat660): How to produce crosstabulation tables in PROC FREQ?
 
 
 
