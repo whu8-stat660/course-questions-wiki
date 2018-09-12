@@ -53,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (whu8-stat660): Where can we see the answers of our quiz especially for the ones we don't know the answer?
 - Question (anguyen152-stat660):: Do the Course Structure Quizzes need to be 10/10 points to be counted as "Met"?
 - Question (flee11-stat660): How much would one have to score on a weekly quiz for that quiz to be considered "completed", and to be counted toward the total of 12 quizzes "completed" to earn the Reading for Depth achievement in the course? 
+- Question (flee11-stat660): It says in the Course Structure quiz solution: "There will tentatively be 15 Weekly Quizzes." In both the Course Syllabus and the Course Alignment Map, there are 16 weekly quizzes. Will the 16th week quiz be optional? Will we still need 12 out of 16 weekly quizzes completed to earn the Reading for Depth achievement in the course? 
 - Question (flee11-stat660): It says in the Course Structure quiz solution: "There will tentatively be 15 Weekly Quizzes." In both the Course Syllabus and the Course Alignment Map, there are 16 weekly quizzes. Will the 16th week quiz be optional? Will we still need 12 out of 16 weekly quizzes completed to earn the Reading for Depth achievement in the course?
 - Question (llopez37-stat660) How are the quizzes graded exactly?
 
@@ -164,4 +165,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (flee11-stat660): Can we use single quotation marks instead of double quotation marks in the given fizz buzz SAS codes? Will SAS run without error and still give us the correct results?
 - Answer (flee11-stat660): Yes, single quotation marks work too, and SAS will run without error and still give us the correct results. 
 - Question (llopez37-stat660) Do quotation marks need to be consistent throughout or can you alternate? 
+
 
