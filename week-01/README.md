@@ -163,5 +163,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): should indentation be ignored while SAS coding ? 
 - Question (flee11-stat660): Can we use single quotation marks instead of double quotation marks in the given fizz buzz SAS codes? Will SAS run without error and still give us the correct results?
 - Answer (flee11-stat660): Yes, single quotation marks work too, and SAS will run without error and still give us the correct results. 
-- Question (llopez37-stat660) Do quotation marks need to be consistent throughout? 
+- Question (llopez37-stat660) Do quotation marks need to be consistent throughout or can you alternate? 
 
