@@ -94,6 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) no, can only choose to print out which data set.
 
 
+
 [Week 3 SAS Recipe: recipe_to_check_for_duplicates]
 - Question (mphan12-stat660): How do you get the pairs of duplicate?
 - Answer (mphan12-stat660): You can get duplicate pair by using the dupout statement:
@@ -117,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yli110-stat660): What happens if you don't specify OUT= option in a PROC SORT step? Is it good practice to do so? Why or why not?
 - Question (whu8-stat660):What’s the default sort order in SAS?
 - Answer (whu8-stat660): Ascending.
+- Question (jduan10-stat660): How to sort the dataset by alphabetical order? 
 - Question (jduan10-stat660): How to sort the dataset by alphabetical order?
 - Question (llopez37-stat660) How granular can you get with the descending and ascending options? 
 
