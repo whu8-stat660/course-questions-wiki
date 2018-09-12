@@ -24,6 +24,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): Is observation number a default column in SAS?
 - Question (jduan10-stat660): What happens if the variable in ID statement also appears in VAR statement?
 - Answer (jduan10-stat660):  The output contains two columns for that variable.
+- Question (llopez37-stat660) Are there options outside of just label and id?
 
 
 
@@ -35,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): What’s the difference between "in" and "="?
 - Answer (whu8-stat660): They are used in different cases, '=' is used for a single value while 'in' is used for multiple values.
 - Question (jduan10-stat660): How many WHERE statement can be written in a PROC PRINT step?
+- Question (llopez37-stat660) How long can the where statement string be?
 
 
 
@@ -47,6 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660): Semicolon is not allowed between 'data' and 'out' statements.
 - Question (jduan10-stat660): Does PROC SORT generate printed output?
 - Answer (jduan10-stat660): No, PROC SORT doesn’t generate printed output.
+- Question (llopez37-stat660) Is it possible to have the out statement save in a different library?
 
 
 
@@ -64,6 +67,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):Is 'by' statement necessary when using sort function?
 - Answer (whu8-stat660): Yes. 
 - Question (jduan10-stat660): How to remove the Obs column?
+- Question (llopez37-stat660) what other format options are there? 
 
 
 
@@ -74,6 +78,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):If there are mulitiple "and","or",what would be the sequence of process?
 - Answer (whu8-stat660): SAS will process the command by input sequence.
 - Question (jduan10-stat660): How to test for multiple values of the same variable with WHERE statement?
+- Question (llopez37-stat660) Is it possible for the string of and statements to cause issues with one another? 
+- Answer (llopez37-stat660) Yes it goes by input order so if one conflicts there will be an error
 
 
 
@@ -84,7 +90,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):Will the second 'proc print' overwrite the result before?
 - Question (jduan10-stat660): How to control which observations are printed?
 - Answer (jduan10-stat660): We can add a WHERE statement to the PROC PRINT step.
-
+- Question (llopez37-stat660) Can you sort through proc print? 
+- Answer (llopez37-stat660) no, can only choose to print out which data set.
 
 
 [Week 3 SAS Recipe: recipe_to_check_for_duplicates]
@@ -100,6 +107,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):Is 'nodupkey' a global statement? 
 - Answer (whu8-stat660): It's not a global statement.
 - Question (jduan10-stat660): What's the code “nodupkey” for and what else can the out= option be set to other than “_null_”?
+- Question (llopez37-stat660) Will it know if some duplicates are important and not just redundent?
 
 
 
@@ -109,7 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (yli110-stat660): What happens if you don't specify OUT= option in a PROC SORT step? Is it good practice to do so? Why or why not?
 - Question (whu8-stat660):What’s the default sort order in SAS?
 - Answer (whu8-stat660): Ascending.
-- Question (jduan10-stat660): How to sort the dataset by alphabetical order? 
+- Question (jduan10-stat660): How to sort the dataset by alphabetical order?
+- Question (llopez37-stat660) How granular can you get with the descending and ascending options? 
 
 
 
@@ -121,5 +130,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660): 'Porc print' statement and explore function.
 - Question (jduan10-stat660): Does the order of the list in “ID” statement matters?
 - Answer (jduan10-stat660):  Yes, the id names are in order.
+- Question (llopez37-stat660) Just as ID sorts which variables to print can we also add a new variable through ID?
+- Answer (llopez37-stat660) No there is a method of adding variables and then printing it through ID
 
 
