@@ -18,61 +18,91 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 8, Problem 3]
+- Question (mphan12-stat660): When creating PROC FORMAT, where does the semi-colon go?
+- Answer (mphan12-stat660): For every value statement there is a semi-colon.
 
 
 
 [Course Textbook Chapter 8, Problem 4]
+- Question (mphan12-stat660): What happens when the library option is omitted from PROC FORMAT?
+- Answer (mphan12-stat660): If you omit the library option, then formats and informats are stored in the Work Formats catalog.
 
 
 
 [Course Textbook Chapter 8, Problem 5]
+- Question (mphan12-stat660): What are the keywords to specify the lower and upper limits of a variable's value range.
+- Answer (mphan12-stat660): Keywords are Low and High.  Note that Low does not include missing numeric values.
 
 
 
 [Course Textbook Chapter 8, Problem 6]
+- Question (mphan12-stat660): How many characters can be used in a LABEL?
+- Answer (mphan12-stat660): 32,767
 
 
 
 [Course Textbook Chapter 8, Problem 7]
+- Question (mphan12-stat660): When would you use OTHER in PROC FORMAT?
+- Answer (mphan12-stat660): To label missing numeric values as well as any values that are not specified in a range.
 
 
 
 [Course Textbook Chapter 8, Problem 8]
+- Question (mphan12-stat660): What does the FORMAT procedure do?
+- Answer (mphan12-stat660): PROC FORMAT stores user-defined informats and formats as entries in SAS catalogs. Formats determine how variable values are printed.
 
 
 
 [Course Textbook Chapter 9, Problem 1]
+- Question (mphan12-stat660): What are the default statistics produced by the MEANS procedure?
+- Answer (mphan12-stat660): 
 
 
 
 [Course Textbook Chapter 9, Problem 2]
+- Question (mphan12-stat660): What is the difference between by and class statements in PROC MEANS?
+- Answer (mphan12-stat660): BY-group processing requires that your data already be sorted or indexed in the order of the BY variables. Also, the layout of BY-group results differs from the layout of CLASS group results.
 
 
 
 [Course Textbook Chapter 9, Problem 4]
+- Question (mphan12-stat660): Why would one chose BY over CLASS statement in PROC FREQ and PROC MEANS procedures?
+- Answer (mphan12-stat660): Although the CLASS statement is easier to use than the BY statement because it does not require a sorting step, the BY-group processing can be more efficient when your categories might contain many levels.
 
 
 
 [Course Textbook Chapter 9, Problem 7]
+- Question (mphan12-stat660): What does the asterisk do in PROC FREQ?
+- Answer (mphan12-stat660): The asterisk in PROC FREQ creates n-way crosstabulations.  
 
 
 
 [Course Textbook Chapter 9, Problem 8]
+- Question (mphan12-stat660): Does order matter when listing it in PROC FREQ? Why?
+- Answer (mphan12-stat660): Yes, order of the variable is important.  In n-way tables, the last two variables of the TABLES statement become the two-way rows and columns. Variables that precede the last two variables in the TABLES statement stratify the crosstabulation tables.
 
 
 
 [Course Textbook Chapter 9, Problem 10]
+- Question (mphan12-stat660): What does the list option do in PROC FREQ?
+- Answer (mphan12-stat660): Adding the LIST option puts the frequencies in a simple, short table.
 
 
 
 [Week 4 SAS Recipe: recipe_for_summarizing_quantitative_values]
+- Question (mphan12-stat660): What are the differences bewteen PROC MEANS and PROC SUMMARY?
+- Answer (mphan12-stat660): 
 
 
 
 [Week 4 SAS Recipe: recipe_for_summarizing_qualitative_values]
+- Question (mphan12-stat660): What are the differences between PROC FREQ and PROC TABULATE?
+- Answer (mphan12-stat660): 
 
 
 
 [Week 4 SAS Recipe: recipe_for_temporarily_binning_values]
+- Question (mphan12-stat660): What are the differences between VALUE and INVALUE in PROC FORMAT?
+- Answer (mphan12-stat660): 
 
 
