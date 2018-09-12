@@ -86,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) There are methods of changing it through temp code.
 
 
+
 [Course Textbook Chapter 3, Problem 5]
 - Question (mphan12-stat660): How do you identify permanent dataset?
 - Answer (mphan12-stat660):  If you see two-level name joined by a period, and the first word is not locwork or work, then the permanent dataset name is the second latter word of the two-level, i.e. mylib.mydata where mydata is the permanent dataset.
@@ -99,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
     if totalsales>50000; 
 run;
 ```
+- Question (whu8-stat660):- Question (whu8-stat660): What’s the difference between temporary and Permanente library? 
 - Question (whu8-stat660):- Question (whu8-stat660): What’s the difference between temporary and Permanente library?
 - Question (llopez37-stat660) Is there a way to access a library remotely? 
 - Answer (llopez37-stat660) Seems possible with the sas university or vmware options.
