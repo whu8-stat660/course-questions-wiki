@@ -25,6 +25,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): What happens if the variable in ID statement also appears in VAR statement?
 - Answer (jduan10-stat660):  The output contains two columns for that variable.
 - Question (llopez37-stat660) Are there options outside of just label and id?
+- Question (anguyen152-stat660): What if the variables' names are "date" ,"on", "changed", "flight" ? Should the answer "d" be correct then ?
 
 
 
@@ -37,6 +38,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660): They are used in different cases, '=' is used for a single value while 'in' is used for multiple values.
 - Question (jduan10-stat660): How many WHERE statement can be written in a PROC PRINT step?
 - Question (llopez37-stat660) How long can the where statement string be?
+- Question (anguyen152-stat660): Why are quotation marks needed here ?
+- Answer (anguyen152-stat660):Because character values must be enclosed in quotation marks and must be in the same case as in the data set.
 
 
 
@@ -50,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): Does PROC SORT generate printed output?
 - Answer (jduan10-stat660): No, PROC SORT doesn’t generate printed output.
 - Question (llopez37-stat660) Is it possible to have the out statement save in a different library?
+- Question (anguyen152-stat660): Can we sort a dataset by 2 or more variables ?
 
 
 
@@ -68,6 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660): Yes. 
 - Question (jduan10-stat660): How to remove the Obs column?
 - Question (llopez37-stat660) what other format options are there? 
+- Question (anguyen152-stat660): Doesn't SAS work step by step ? If step 1 fails, it still runs step 2 ?
 
 
 
@@ -80,6 +85,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): How to test for multiple values of the same variable with WHERE statement?
 - Question (llopez37-stat660) Is it possible for the string of and statements to cause issues with one another? 
 - Answer (llopez37-stat660) Yes it goes by input order so if one conflicts there will be an error
+- Question (anguyen152-stat660): Can we use "=" and "eq" in the same statement ?
+- Answer (anguyen152-stat660): Yes. They both represent the same meaning
 
 
 
@@ -92,6 +99,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jduan10-stat660): We can add a WHERE statement to the PROC PRINT step.
 - Question (llopez37-stat660) Can you sort through proc print? 
 - Answer (llopez37-stat660) no, can only choose to print out which data set.
+- Question (anguyen152-stat660): What's the PAGEBY statement used for (under PROC PRINT) ?
+- Answer (anguyen152-stat660): Control page ejects that occur before a page is full
 
 
 
@@ -109,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660): It's not a global statement.
 - Question (jduan10-stat660): What's the code “nodupkey” for and what else can the out= option be set to other than “_null_”?
 - Question (llopez37-stat660) Will it know if some duplicates are important and not just redundent?
+- Question (anguyen152-stat660): Will the log window inform me if the dataset has duplicates or not ?
 
 
 
@@ -121,6 +131,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): How to sort the dataset by alphabetical order? 
 - Question (jduan10-stat660): How to sort the dataset by alphabetical order?
 - Question (llopez37-stat660) How granular can you get with the descending and ascending options? 
+- Question (anguyen152-stat660): What is the “out=” command for?
+- Answer (anguyen152-stat660): It prevents us from overriding the original data.
 
 
 
@@ -134,5 +146,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jduan10-stat660):  Yes, the id names are in order.
 - Question (llopez37-stat660) Just as ID sorts which variables to print can we also add a new variable through ID?
 - Answer (llopez37-stat660) No there is a method of adding variables and then printing it through ID
+- Question (anguyen152-stat660): Can we obmit the ID statement ?
+
+
+
 
 
