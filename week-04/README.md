@@ -28,6 +28,8 @@ PROC FORMAT;
 	  "F"   = "Female";
 RUN;
 - Question (llopez37-stat660) If we did not put the dollar sign, would an error occur or would the name be considered numeric by sas?
+* Question (yli110-stat660): What are rules for a format name to be valid in SAS?
+* Answer (yli110-stat660):It must begin with a dollar sign if applies to character data, must be a valid SAS name, cannot be the name of an existing SAS format, cannot end in a number or period, can be up to 32 (numeric) or 31 (character) long.
 
 
 
@@ -37,6 +39,8 @@ RUN;
 - Question (anguyen152-stat660): Do we always have to declare the library name when using the "PROC FORMAT" statement ? 
 - Question (llopez37-stat660) Would this be the same if the format was within a data step in terms of amount of semi colons used?
 - Answer (llopez37-stat660) Yes, it holds true whether its just a format statement or within a data or proc step.
+* Question (yli110-stat660): How does VALUE range specifies character values?
+* Answer (yli110-stat660): In quotation marks.
 
 
 
@@ -46,6 +50,8 @@ RUN;
 - Question (anguyen152-stat660):Where the semicolons should be placed in the "PROC FORMAT" statement ? 
 - Answer (anguyen152-stat660): They are placed after these statement : The first statement calls PROC FORMAT. The second statement is a value clause that defines the name and contents of the user-defined format. The final statement is the run statement
 - Question (llopez37-stat660) Why does the range only go from A to M? 
+* Question (yli110-stat660): Why cannot VALUE range specifies both character values or numeric values?
+* Answer (yli110-stat660): Because formats themselves are either character or numeric.
 
 
 
@@ -54,6 +60,8 @@ RUN;
 - Answer (mphan12-stat660): 32,767
 - Question (anguyen152-stat660): What is a "label" in SAS ?
 - Question (llopez37-stat660) Is there ever a situation in which 256 characters would be required if so then why?
+* Question (yli110-stat660): What is the length limit for a label in quotation marks?
+* Answer (yli110-stat660): 256
 
 
 
@@ -62,6 +70,7 @@ RUN;
 - Answer (mphan12-stat660): To label missing numeric values as well as any values that are not specified in a range.
 - Question (anguyen152-stat660):What are the "keywords" should be noted in SAS for formatting?
 - Question (llopez37-stat660) Is there a statement we can add that deletes the observation that is within the Other group or would that lean towards the sort statements?
+* Question (yli110-stat660): What is the difference of LOW when applies to numeric values and character values?
 
 
 
@@ -70,6 +79,7 @@ RUN;
 - Answer (mphan12-stat660): PROC FORMAT stores user-defined informats and formats as entries in SAS catalogs. Formats determine how variable values are printed.
 - Question (anguyen152-stat660): Why would you place a FORMAT statement in a DATA step ? 
 - Question (llopez37-stat660) I see that some code can have multiple steps within it, is it possible to have multiple format statements within steps making our data more granular as it goes?
+* Question (yli110-stat660): How do you permanently associate the formats with variables?
 
 
 
@@ -78,6 +88,7 @@ RUN;
 - Question (anguyen152-stat660): How many functions in total of the MEANS procedure ? 
 - Question (llopez37-stat660) Are these the defaullt statistics produced for all descriptive statistics functions?
 - Answer (llopez37-stat660) A proc means table tends to print with most descriptive analysis with these default statistics
+* Question (yli110-stat660): what are the default statistics produced by PROC MEANS?
 
 
 
@@ -86,6 +97,7 @@ RUN;
 - Answer (mphan12-stat660): BY-group processing requires that your data already be sorted or indexed in the order of the BY variables. Also, the layout of BY-group results differs from the layout of CLASS group results.
 - Question (anguyen152-stat660): What is the word "BY" used for ?
 - Question (llopez37-stat660) Are there conflictions with that can arise with using Var, by and class statements?
+* Question (yli110-stat660): How do you specify the variables to be summarized in PROC MEANS?
 
 
 
@@ -94,6 +106,7 @@ RUN;
 - Answer (mphan12-stat660): Although the CLASS statement is easier to use than the BY statement because it does not require a sorting step, the BY-group processing can be more efficient when your categories might contain many levels.
 - Question (anguyen152-stat660): What is the pre-condition when using "By-group process" ? 
 - Question (llopez37-stat660) Does the order effect how the table comes out?
+* Question (yli110-stat660): What is the difference between CLASS statement and BY statement?
 
 
 
@@ -103,6 +116,7 @@ RUN;
 - Question (anguyen152-stat660):How to create list output for cross-tabulations in proc freq?
 - Question (llopez37-stat660) What are the limitations for proc freq on both character and numeric variables if any?
 - Answer (llopez37-stat660) It seems that the frequencies could be broken down for intervals on continous variables.
+* Question (yli110-stat660): What type of variables are suitable for producing frequency tables?
 
 
 
@@ -111,6 +125,7 @@ RUN;
 - Answer (mphan12-stat660): Yes, order of the variable is important.  In n-way tables, the last two variables of the TABLES statement become the two-way rows and columns. Variables that precede the last two variables in the TABLES statement stratify the crosstabulation tables.
 - Question (anguyen152-stat660): Can Frequency distributions work with variables of all types of values?
 - Question (llopez37-stat660) What approach could we take with non categorical variables?
+* Question (yli110-stat660): Why are coninuous varaibles not suitable for producing frequency tables?
 
 
 
@@ -119,6 +134,7 @@ RUN;
 - Answer (mphan12-stat660): Adding the LIST option puts the frequencies in a simple, short table.
 - Question (anguyen152-stat660): What are the meanings of the words after the slash ?  
 - Question (llopez37-stat660) How could we change the ranges of the weights to our choosing? 
+* Question (yli110-stat660): How to produce crosstabulation tables in PROC FREQ?
 
 
 
@@ -126,6 +142,7 @@ RUN;
 - Question (mphan12-stat660): What are the differences bewteen PROC MEANS and PROC SUMMARY?
 - Question (anguyen152-stat660):What if I want the mean and standard deviation only in the output statistics ?
 - Question (llopez37-stat660) Could we simply create a seperate window of the output and put into PDF?
+* Question (yli110-stat660): What does ODS stand for? And what does ODS do?
 
 
 
@@ -134,6 +151,7 @@ RUN;
 - Question (anguyen152-stat660): What is the slash (/) used for in the PROC FREQ?
 - Answer (anguyen152-stat660): It indicates that what comes after are options(not variables).
 - Question (llopez37-stat660) What is best practice for the order to put into tabular form?
+* Question (yli110-stat660): What does nlevels do in PROC FREQ statement?
 
 
 
@@ -141,5 +159,6 @@ RUN;
 - Question (mphan12-stat660): What are the differences between VALUE and INVALUE in PROC FORMAT?
 - Question (anguyen152-stat660):How to make a new table storing the binned values ? 
 - Question (llopez37-stat660) Do all the criteria for binning values have to be range values and not specific values?
+* Question (yli110-stat660): What is the advantage of FORMATS in SAS?
 
 
