@@ -55,7 +55,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 9, Problem 1]
 - Question (mphan12-stat660): What are the default statistics produced by the MEANS procedure?
-- Answer (mphan12-stat660): 
 
 
 
@@ -91,18 +90,15 @@ The instructor will then review the pull request and make comments should furthe
 
 [Week 4 SAS Recipe: recipe_for_summarizing_quantitative_values]
 - Question (mphan12-stat660): What are the differences bewteen PROC MEANS and PROC SUMMARY?
-- Answer (mphan12-stat660): 
 
 
 
 [Week 4 SAS Recipe: recipe_for_summarizing_qualitative_values]
 - Question (mphan12-stat660): What are the differences between PROC FREQ and PROC TABULATE?
-- Answer (mphan12-stat660): 
 
 
 
 [Week 4 SAS Recipe: recipe_for_temporarily_binning_values]
 - Question (mphan12-stat660): What are the differences between VALUE and INVALUE in PROC FORMAT?
-- Answer (mphan12-stat660): 
 
 
