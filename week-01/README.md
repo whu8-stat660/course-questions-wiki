@@ -28,6 +28,8 @@ The instructor will then review the pull request and make comments should furthe
 * If a number is only divisible by 3, print first name.
 * If a number is only divisible by 5, print last name.
 * If a number is divisible by 15, print both first name and last name.
+- Question (llopez37-stat660) Does the desktop have every functionality that the website would?
+- Answer (llopez37-stat660) Seems it is mainly for remote access to your fork only you push everything else to website
 
 
 
@@ -40,6 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (flee11-stat660): It says in the Course Structure quiz solution: "There will tentatively be 15 Weekly Forum Posts." In both the Course Syllabus and the Course Alignment Map, there are 16 weekly forum posts. Will the 16th week forum post be optional? Will we still need 12 out of 16 weekly posts completed to earn the Reading for Breadth achievement in the course?
 - Question (flee11-stat660): FlowingData Blog (http://flowingdata.com/) is one of the websites provided by Professor Lankham. When I clicked on a blogpost on that website, it led me to another website (the website of Harvard Business Review). I ended up reading the full article on the Harvard Business Review website. Would that still be considered technically an article from the FlowingData Blog website?
 - Answer (flee11-stat660): Yes, I hope so.
+- Question (llopez37-stat660) Does the length of the article matter?
 
 
 
@@ -51,6 +54,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660):: Do the Course Structure Quizzes need to be 10/10 points to be counted as "Met"?
 - Question (flee11-stat660): How much would one have to score on a weekly quiz for that quiz to be considered "completed", and to be counted toward the total of 12 quizzes "completed" to earn the Reading for Depth achievement in the course? 
 - Question (flee11-stat660): It says in the Course Structure quiz solution: "There will tentatively be 15 Weekly Quizzes." In both the Course Syllabus and the Course Alignment Map, there are 16 weekly quizzes. Will the 16th week quiz be optional? Will we still need 12 out of 16 weekly quizzes completed to earn the Reading for Depth achievement in the course? 
+- Question (flee11-stat660): It says in the Course Structure quiz solution: "There will tentatively be 15 Weekly Quizzes." In both the Course Syllabus and the Course Alignment Map, there are 16 weekly quizzes. Will the 16th week quiz be optional? Will we still need 12 out of 16 weekly quizzes completed to earn the Reading for Depth achievement in the course?
+- Question (llopez37-stat660) How are the quizzes graded exactly?
 
 
 
@@ -62,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660):: Should I need to form the team right now ? How many people can make a team ?
 - Question (flee11-stat660): Will there be report writing or presentation at the end of the two team-based projects?
 - Question (flee11-stat660): Will the team be created according to similar interests for the projects? Will we have different teams for the two projects?
+- Question (llopez37-stat660) How are teamws selected?
+- Answer (llopez37-stat660) By similar chosen data sets
 
 
 
@@ -72,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): Can I repeat the final exam ?
 - Answer (anguyen152-stat660): No. According to the Final Exam Instruction
 - Question (flee11-stat660): Will any score between 70 and 100 on the final exam be treated the same way, in the sense that  they will all earn the Building General Knowlege achievement for the course?
+- Question (llopez37-stat660) Would you recommend taking the SAS base programming exam after this class? 
 
 
 
@@ -83,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): What if I will earn only 3 achievements ? 
 - Answer (anguyen152-stat660): I will get a B+
 - Question (flee11-stat660): Is the Team-based Problem Solving Achievement given the same weight in one's final course letter grade as any other Achievement (such as Initial Setup Achievement and Buiding General Knowledge Achievement)? For example, one can still get an A- if all achievements (except the Team-based achievement) were earned?
+- Question (llopez37-stat660) How do you grade the team on an individual level?
 
 
 
@@ -93,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (whu8-stat660): Could we submit assignments multiple times and get grades based on the latest submission?
 - Question (anguyen152-stat660): Late submission can be counted toward the grades at instructor's discretion, right ?
 - Question (flee11-stat660): By "incomplete submissions can be eligible for resubmission at the instructor's discretion", does it mean that upon receiving Professor Lankham's feedback, one should attempt to resubmit with errors fixed?
+- Question (llopez37-stat660) WHat is the length of time for resubmission?
 
 
 
@@ -103,6 +113,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): What is the maximum of extra credits I could earn ?
 - Question (flee11-stat660): Should we post in the #-q-and-a-and-a channel (in the course Slack Workspace) any typos or lack of clarity in any course materials?
 - Answer (flee11-stat660): Yes, or DM Professor Lankham?
+- Question (llopez37-stat660) What is the most you have ever given in extra credit? 
 
 
 
@@ -116,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : Slack is a messaging app that brings all your communication together in one place. It offers real-time messaging, archiving and search for modern teams.
 - Question (flee11-stat660): When this course STAT 660 ends in December 2018, will we lose access to all the slack messages exchanged in the course Slack workspace during the entire semester?
 - Question (flee11-stat660): Is there a place where one can post and read our classmates' posts for commonly asked questions, instead of each person indiviually DM the professor perhaps similar questions?
+- Question (llopez37-stat660) Why is slack preferred over email? 
 
 
 
@@ -125,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (whu8-stat660): Do we need to check Blackboard daily? Does all instructions are posted only in Blackboard? 
 - Question (anguyen152-stat660): Why should I check Github daily ?
 - Question (flee11-stat660): Will we be able to see the questions our classmates created for each quiz? Will some of our questions get answered by the professor or classmates?
+- Question (llopez37-stat660) What are common errors that are experienced in github? 
 
 
 
@@ -137,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (whu8-stat660): R is the lingua franca of statistics. It is a free and open source programming language used to perform advanced data analysis tasks. Python is a multi-purpose, free and open source programming language which has become very popular in data science due to its active community and data mining libraries. SAS has been the undisputed market leader in the enterprise analytics space. It offers a huge array of statistical functions, has a good GUI for people to learn quickly and provides brilliant technical support.SAS is extremely efficient at sequential data access, and database access through SQL is well integrated.The drag-and-drop interface makes it easy for you to create better statistical models quickly. It has decent functional graphical capabilities in SAS.(*Reference*:https://www.datasciencecentral.com/profiles/blogs/r-python-or-sas-which-one-should-you-learn-first)
 - Question (anguyen152-stat660): How to move the log window to the right ?
 - Question (flee11-stat660): The instruction for the hello world Week 1 SAS Recipe says: "Open SAS 9.4 in BayCloud (or SAS University Edition, if BayCloud VCL is not yet setup), and then type in and run the following hello-world recipe". Can we instead use SAS software installed to our own computers for this exercise and any future exercises in this SAS course? Baycloud tends to disconnect unexpectedly for me.
+- Question (llopez37-stat660) In what other ways is mod used outside of just printing your name from a span of numbers?
 
 
 
@@ -150,5 +164,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): should indentation be ignored while SAS coding ? 
 - Question (flee11-stat660): Can we use single quotation marks instead of double quotation marks in the given fizz buzz SAS codes? Will SAS run without error and still give us the correct results?
 - Answer (flee11-stat660): Yes, single quotation marks work too, and SAS will run without error and still give us the correct results. 
+- Question (llopez37-stat660) Do quotation marks need to be consistent throughout or can you alternate? 
 
 
