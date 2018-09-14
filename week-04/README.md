@@ -82,13 +82,16 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 4 SAS Recipe: recipe_for_summarizing_quantitative_values]
+* Question (yli110-stat660): What does ODS stand for? And what does ODS do?
 
 
 
 [Week 4 SAS Recipe: recipe_for_summarizing_qualitative_values]
+* Question (yli110-stat660): What does nlevels do in PROC FREQ statement?
 
 
 
 [Week 4 SAS Recipe: recipe_for_temporarily_binning_values]
+* Question (yli110-stat660): What is the advantage of FORMATS in SAS?
 
 
