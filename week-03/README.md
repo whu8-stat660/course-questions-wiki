@@ -149,6 +149,3 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): Can we obmit the ID statement ?
 
 
-
-
-
