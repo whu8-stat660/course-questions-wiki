@@ -45,9 +45,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 5 SAS Recipe: basic_recipe_for_creating_analytic_datasets]
-
+- Question (mphan12-stat660): What does the RETAIN statement do?
+- Answer (mphan12-stat660): It causes a variable that is created by an INPUT or assignment statement to retain its value from one iteration of the DATA step to the next. In addition, the RETAIN statement can set variable order.
 
 
 [Week 5 SAS Recipe: adv_recipe_for_creating_analytic_datasets]
-
+- Question (mphan12-stat660): Why is PROC SQL preferred over DATA step?
 
