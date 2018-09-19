@@ -28,9 +28,11 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): A fileref is a SAS name that is associated with the physcial location of the output file. To assign fileref, use the FILENAME statement.
 
 
+
 [Course Textbook Chapter 6, Problem 6]
 - Question (mphan12-stat660): What are the two statements used to read in raw data?
 - Answer (mphan12-stat660): The INFILE and INPUT statements are used in the DATA step for read in raw data.
+
 
 
 [Course Textbook Chapter 6, Problem 7]
@@ -44,11 +46,14 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The original value on the right is used to evaluate the expression. The result is assigned to the variable on the left side of the equal sign.
 
 
+
 [Week 5 SAS Recipe: basic_recipe_for_creating_analytic_datasets]
 - Question (mphan12-stat660): What does the RETAIN statement do?
 - Answer (mphan12-stat660): It causes a variable that is created by an INPUT or assignment statement to retain its value from one iteration of the DATA step to the next. In addition, the RETAIN statement can set variable order.
 
 
+
 [Week 5 SAS Recipe: adv_recipe_for_creating_analytic_datasets]
 - Question (mphan12-stat660): Why is PROC SQL preferred over DATA step?
+
 
