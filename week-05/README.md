@@ -18,29 +18,40 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 6, Problem 1]
+- Question (jduan10-stat660): When referring a file in an aggregate storage location, can the file extension be omitted?
+- Answer (jduan10-stat660): If the file extension is omitted, SAS looks for a .dat file.
 
 
 
 [Course Textbook Chapter 6, Problem 2]
+- Question (jduan10-stat660): What’s the maximum characters can the fileref name has?
+- Answer (jduan10-stat660): The name must be 1 to 8 characters long.
 
 
 
 [Course Textbook Chapter 6, Problem 6]
+- Question (jduan10-stat660): How to limit the number of observations that SAS reads?
+- Answer (jduan10-stat660): Adding OBS=n to the INFILE statement enables you to process records only 1 through n.
 
 
 
 [Course Textbook Chapter 6, Problem 7]
+- Question (jduan10-stat660): If there exists invalid data, does DATA step fail?
+- Answer (jduan10-stat660): No, the DATA step does not fail because of the invalid data but continues to execute.
 
 
 
 [Course Textbook Chapter 6, Problem 8]
+- Question (jduan10-stat660): What will the assignment statement do if the arithmetic operator is missing?
 
 
 
 [Week 5 SAS Recipe: basic_recipe_for_creating_analytic_datasets]
+- Question (jduan10-stat660): Does the column list order in keep statement matters?
 
 
 
 [Week 5 SAS Recipe: adv_recipe_for_creating_analytic_datasets]
+- Question (jduan10-stat660): What's the maximum dataset that can fit into memory with PROC SQL?
 
 
