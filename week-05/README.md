@@ -24,6 +24,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Filename statement is used to point to the location of the external file that contains the data. Its syntax is “FILENAME fileref 'filename';”.
 - Question (jduan10-stat660): When referring a file in an aggregate storage location, can the file extension be omitted?
 - Answer (jduan10-stat660): If the file extension is omitted, SAS looks for a .dat file.
+- Question (anguyen152-stat660): What's fileref and what's filename ? 
+- Answer(anguyen152-stat660): You assign a fileref by using a FILENAME statement in the same way that you assign a libref by using a LIBNAME statement.
 
 
 
@@ -34,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Filerefs perform the same function as librefs: they temporarily point to a storage location for data. However, librefs reference SAS libraries, whereas filerefs reference external files.
 - Question (jduan10-stat660): What’s the maximum characters can the fileref name has?
 - Answer (jduan10-stat660): The name must be 1 to 8 characters long.
+- Question (anguyen152-stat660): How to cancel a FILENAME statement ? 
 
 
 
@@ -44,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660):Input statment is used to read specific fields. You must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field. 
 - Question (jduan10-stat660): How to limit the number of observations that SAS reads?
 - Answer (jduan10-stat660): Adding OBS=n to the INFILE statement enables you to process records only 1 through n.
+- Question (anguyen152-stat660): What does "infile" statement do ? What does "input" statement do ? 
+- Answer(anguyen152-stat660):  The INFILE statement opens an external file for input or, if the file is already open, makes it the current input file. Meanwhile, the INPUT statement creates a variable using the name that you assign to each field. 
 
 
 
@@ -54,6 +59,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Yes.
 - Question (jduan10-stat660): If there exists invalid data, does DATA step fail?
 - Answer (jduan10-stat660): No, the DATA step does not fail because of the invalid data but continues to execute.
+- Question (anguyen152-stat660):  What's the dollar signs ($) used for in "input" statement ? 
+- Answer(anguyen152-stat660): The dollar sign ($) identifies the variable type as character (if the variable is numeric, then nothing appears here).
 
 
 
@@ -63,6 +70,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): How to redefine the values of variables?
 - Answer(whu8-stat660): In an assignment statement, the variable name is specified on the left side of the equal sign and an appropriate expression including the variable name on the right side of the equal sign.
 - Question (jduan10-stat660): What will the assignment statement do if the arithmetic operator is missing?
+- Question (anguyen152-stat660): Do we need any SAS statement to redefine the values like that ? 
 
 
 
@@ -72,6 +80,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): What’s the difference between keep and retain steps？
 - Answer(whu8-stat660): Keep and retain steps modify by different aspects of the program data vector aka the PDB that SAS uses to compile and execute a data stuff.
 - Question (jduan10-stat660): Does the column list order in keep statement matters?
+- Question (anguyen152-stat660): How to distinguish "keep" and "retain" ? 
+- Answer(anguyen152-stat660): "retain" is used to set variable order, and "keep" is used to explicitly list the columns to keep in output.
 
 
 
@@ -80,5 +90,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): What’s the limitation of proc sql in SAS?
 - Answer(whu8-stat660): Instead of loading records one-by-one, the proc sql loads all the data into memory at one time. This means only dataset that fits the memory can be processed with proc sql.
 - Question (jduan10-stat660): What's the maximum dataset that can fit into memory with PROC SQL?
+- Question (anguyen152-stat660): Why do I see some SQL statements here ? Is it better to use PROC SQL ? 
+- Answer(anguyen152-stat660): SQL is one of the many languages built into the SAS System. PROC SQL is a powerful Base SAS Procedure that combines the functionality of DATA and PROC steps into a single step. That's why we can use SQL statements under "PROC SQL". 
 
 
