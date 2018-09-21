@@ -18,29 +18,39 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 6, Problem 1]
+* Question (yli110-stat660): What are the similarities between FILENAME and LIBNAME, and what are their differences?
+* Answer (yli110-stat660): FILENAME is used to associate a fileref with a raw data file, whereas LIBNAME associate a libref with a SAS library. Other than that, you use FILENAME in the same way that you assign a libref.
 
 
 
 [Course Textbook Chapter 6, Problem 2]
+* Question (yli110-stat660): Is FILENAME global? How long does it last?
+* Answer (yli110-stat660): Like LIBNAME, FILENAME statements are global, and they remain in effect unitl changed, cancelled or untill the SAS session ends.
 
 
 
 [Course Textbook Chapter 6, Problem 6]
+* Question (yli110-stat660): How does SAS decide the order of variables in the output data set after reading from raw data set?
+* Answer (yli110-stat660): The INPUT statement specifies the variables in the order that you want it to be in the output SAS data set.
 
 
 
 [Course Textbook Chapter 6, Problem 7]
+* Question (yli110-stat660): What is the purpose of INPUT statement when you read raw data set into a SAS data set?
 
 
 
 [Course Textbook Chapter 6, Problem 8]
+* Question (yli110-stat660): How do you redefine a variable in DATA step?
 
 
 
 [Week 5 SAS Recipe: basic_recipe_for_creating_analytic_datasets]
+* Question (yli110-stat660): What is PDF and what is its way to read datasets from disk? In other words, how come SAS can be used for big data?
 
 
 
 [Week 5 SAS Recipe: adv_recipe_for_creating_analytic_datasets]
+* Question (yli110-stat660): How to end a PROC SQL procedure? and why?
 
 
