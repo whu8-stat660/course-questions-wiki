@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The default LRECL is 256 and the maximum value that the IMPORT procedure supports is 32767.
 - Question (whu8-stat660): What’ the function of filename statement?
 - Answer(whu8-stat660): Filename statement is used to point to the location of the external file that contains the data. Its syntax is “FILENAME fileref 'filename';”.
+- Question (jduan10-stat660): When referring a file in an aggregate storage location, can the file extension be omitted?
+- Answer (jduan10-stat660): If the file extension is omitted, SAS looks for a .dat file.
 
 
 
@@ -30,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): A fileref is a SAS name that is associated with the physcial location of the output file. To assign fileref, use the FILENAME statement.
 - Question (whu8-stat660): What is fileref?
 - Answer(whu8-stat660): Filerefs perform the same function as librefs: they temporarily point to a storage location for data. However, librefs reference SAS libraries, whereas filerefs reference external files.
+- Question (jduan10-stat660): What’s the maximum characters can the fileref name has?
+- Answer (jduan10-stat660): The name must be 1 to 8 characters long.
 
 
 
@@ -38,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The INFILE and INPUT statements are used in the DATA step for read in raw data.
 - Question (whu8-stat660): How to use the input statement?
 - Answer(whu8-stat660):Input statment is used to read specific fields. You must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field. 
+- Question (jduan10-stat660): How to limit the number of observations that SAS reads?
+- Answer (jduan10-stat660): Adding OBS=n to the INFILE statement enables you to process records only 1 through n.
 
 
 
@@ -46,6 +52,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): INPUT <VARIABLE> $ X-Y (where X is the starting position and Y is the ending position).
 - Question (whu8-stat660): Does order matter in the Input statement?
 - Answer(whu8-stat660): Yes.
+- Question (jduan10-stat660): If there exists invalid data, does DATA step fail?
+- Answer (jduan10-stat660): No, the DATA step does not fail because of the invalid data but continues to execute.
 
 
 
@@ -54,6 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The original value on the right is used to evaluate the expression. The result is assigned to the variable on the left side of the equal sign.
 - Question (whu8-stat660): How to redefine the values of variables?
 - Answer(whu8-stat660): In an assignment statement, the variable name is specified on the left side of the equal sign and an appropriate expression including the variable name on the right side of the equal sign.
+- Question (jduan10-stat660): What will the assignment statement do if the arithmetic operator is missing?
 
 
 
@@ -62,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): It causes a variable that is created by an INPUT or assignment statement to retain its value from one iteration of the DATA step to the next. In addition, the RETAIN statement can set variable order.
 - Question (whu8-stat660): What’s the difference between keep and retain steps？
 - Answer(whu8-stat660): Keep and retain steps modify by different aspects of the program data vector aka the PDB that SAS uses to compile and execute a data stuff.
+- Question (jduan10-stat660): Does the column list order in keep statement matters?
 
 
 
@@ -69,5 +79,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): Why is PROC SQL preferred over DATA step?
 - Question (whu8-stat660): What’s the limitation of proc sql in SAS?
 - Answer(whu8-stat660): Instead of loading records one-by-one, the proc sql loads all the data into memory at one time. This means only dataset that fits the memory can be processed with proc sql.
+- Question (jduan10-stat660): What's the maximum dataset that can fit into memory with PROC SQL?
 
 
