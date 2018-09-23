@@ -18,10 +18,14 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 1]
+- Question (mphan12-stat660): What items are created during the compilation phase?
+- Answer (mphan12-stat660): The input buffer, program data vector (PDV) and descriptor information are created during the compilation phase.
 
 
 
 [Course Textbook Chapter 7, Problem 2]
+- Question (mphan12-stat660): What errors are detected during the compilation phase?
+- Answer (mphan12-stat660): Misspelled keywords and data set names, unbalanced quotation marks, and invalid options are detected during the compilation phase.
 
 
 
