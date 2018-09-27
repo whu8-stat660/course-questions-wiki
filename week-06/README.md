@@ -18,26 +18,35 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 1]
+* Question (yli110-stat660): What are created in the DATA compilation phase?
+* Answer (yli110-stat660): input buffer, program data vector, descriptor portion.
 
 
 
 [Course Textbook Chapter 7, Problem 2]
+* Question (yli110-stat660): What are common syntax errors?
 
 
 
 [Course Textbook Chapter 7, Problem 3]
+* Question (yli110-stat660): How do you compare DATA step and loop?
+* Answer (yli110-stat660): They are quite similar to some extents, as both will keep going unless running into a stop mark.
 
 
 
 [Course Textbook Chapter 7, Problem 4]
+* Question (yli110-stat660): What are the possible values for the variable __ERROR__?
+* Answer (yli110-stat660): 0 or 1.
 
 
 
 [Course Textbook Chapter 7, Problem 5]
+* Question (yli110-stat660): What does each value in the previous problem mean?
 
 
 
 [Course Textbook Chapter 7, Problem 6]
+* In the DATA step, what does SAS do when it initializes variables?
 
 
 
