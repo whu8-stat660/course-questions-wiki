@@ -18,29 +18,40 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 1]
+- Question (jduan10-stat660): Does SAS read automatic data to the output dataset?
+- Answer (jduan10-stat660): No, SAS does not read these data to the output.
 
 
 
 [Course Textbook Chapter 7, Problem 2]
+- Question (jduan10-stat660): When will the input buffer be created?
+- Answer (jduan10-stat660): The buffer is created only when the DATA step reads raw data. 
 
 
 
 [Course Textbook Chapter 7, Problem 3]
+- Question (jduan10-stat660): Does DATA step create observation one by one or all at a time?
 
 
 
 [Course Textbook Chapter 7, Problem 4]
+- Question (jduan10-stat660): Is the way to represent missing numeric values the same as the way to represent missing characters?
+- Answer (jduan10-stat660): No, missing numeric values are represented by periods, and missing character values are represented by blanks.
 
 
 
 [Course Textbook Chapter 7, Problem 5]
+- Question (jduan10-stat660): Does ERROR_ remain 0 at the beginning of every iteration?
 
 
 
 [Course Textbook Chapter 7, Problem 6]
+- Question (jduan10-stat660): Does the remaining values reset to missing at the beginning of each loop?
 
 
 
 [Week 6 SAS Recipe: obtain-column-information]
+- Question (jduan10-stat660): Can we paste the PROC SQL output information into a Excel file that is not empty?
+
 
 
