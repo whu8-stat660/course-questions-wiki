@@ -42,8 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 5]
-- Question (mphan12-stat660): What are the possible values for _ERROR_?
-- Answer (mphan12-stat660): The value of _ERROR_ is either 0 (no error exists) or 1 (one or more errors occured).
+- Question (mphan12-stat660): How does the DEBUG (i.e. DATA dsname / DEBUG) identify errors efficiently?
 
 
 
