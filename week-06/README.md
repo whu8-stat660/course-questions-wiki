@@ -46,10 +46,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 6]
-* In the DATA step, what does SAS do when it initializes variables?
+* Question (yli110-stat660): In the DATA step, what does SAS do when it initializes variables?
 
 
 
 [Week 6 SAS Recipe: obtain-column-information]
+* Question (yli110-stat660): What are the three appoaches to obtain columns information in SAS?
 
 
