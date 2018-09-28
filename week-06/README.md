@@ -18,29 +18,40 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 1]
+- Question (anguyen152-stat660): What does SAS create during compilation phase ?
+- Answer (anguyen152-stat660) : At the bottom of the DATA step — in most cases, when a RUN statement is encountered — the compilation phase is complete, and the descriptor portion of the new SAS data set is created.
 
 
 
 [Course Textbook Chapter 7, Problem 2]
+- Question (anguyen152-stat660): Will SAS point out the exact syntax errors (if exist) for me ?  
+- Answer (anguyen152-stat660) : If SAS can interpret a syntax error, the DATA step compiles and executes; if SAS cannot interpret the error, the DATA step compiles but doesn't execute. 
 
 
 
 [Course Textbook Chapter 7, Problem 3]
+- Question (anguyen152-stat660): How does SAS process records with missing values ? 
+- Answer (anguyen152-stat660): SAS assigns missing values to prevent problems from arising. If you use a missing value in an arithmetic calculation, SAS sets the result of that calculation to missing. Then, if you use that result in another calculation, the next result is also missing. This action is called propagation of missing values. SAS prints notes in the log to notify you which arithmetic expressions have missing values and when they were created; however, processing continues.
 
 
 
 [Course Textbook Chapter 7, Problem 4]
+- Question (anguyen152-stat660): Why the values of the remaining variables are set "missing" ?
 
 
 
 [Course Textbook Chapter 7, Problem 5]
+- Question (anguyen152-stat660): Will SAS still run after errors ?
 
 
 
 [Course Textbook Chapter 7, Problem 6]
+- Question (anguyen152-stat660): What occurs at the end of an iteration of the DATA step?
 
 
 
 [Week 6 SAS Recipe: obtain-column-information]
+- Question (anguyen152-stat660): Can we print out the dataset and then choose the names of the columns manually ? 
+
 
 
