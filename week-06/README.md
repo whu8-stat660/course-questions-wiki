@@ -27,6 +27,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): input buffer, program data vector, descriptor portion.
 - Question (jduan10-stat660): Does SAS read automatic data to the output dataset?
 - Answer (jduan10-stat660): No, SAS does not read these data to the output.
+- Question (anguyen152-stat660): What does SAS create during compilation phase ?
+- Answer (anguyen152-stat660) : At the bottom of the DATA step — in most cases, when a RUN statement is encountered — the compilation phase is complete, and the descriptor portion of the new SAS data set is created.
 
 
 
@@ -40,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What are common syntax errors?
 - Question (jduan10-stat660): When will the input buffer be created?
 - Answer (jduan10-stat660): The buffer is created only when the DATA step reads raw data. 
+- Question (anguyen152-stat660): Will SAS point out the exact syntax errors (if exist) for me ?  
+- Answer (anguyen152-stat660) : If SAS can interpret a syntax error, the DATA step compiles and executes; if SAS cannot interpret the error, the DATA step compiles but doesn't execute. 
 
 
 
@@ -52,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): How do you compare DATA step and loop?
 * Answer (yli110-stat660): They are quite similar to some extents, as both will keep going unless running into a stop mark.
 - Question (jduan10-stat660): Does DATA step create observation one by one or all at a time?
+- Question (anguyen152-stat660): How does SAS process records with missing values ? 
+- Answer (anguyen152-stat660): SAS assigns missing values to prevent problems from arising. If you use a missing value in an arithmetic calculation, SAS sets the result of that calculation to missing. Then, if you use that result in another calculation, the next result is also missing. This action is called propagation of missing values. SAS prints notes in the log to notify you which arithmetic expressions have missing values and when they were created; however, processing continues.
 
 
 
@@ -65,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): 0 or 1.
 - Question (jduan10-stat660): Is the way to represent missing numeric values the same as the way to represent missing characters?
 - Answer (jduan10-stat660): No, missing numeric values are represented by periods, and missing character values are represented by blanks.
+- Question (anguyen152-stat660): Why the values of the remaining variables are set "missing" ?
 
 
 
@@ -76,6 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): How does the DEBUG (i.e. DATA dsname / DEBUG) identify errors efficiently?
 * Question (yli110-stat660): What does each value in the previous problem mean?
 - Question (jduan10-stat660): Does ERROR_ remain 0 at the beginning of every iteration?
+- Question (anguyen152-stat660): Will SAS still run after errors ?
 
 
 
@@ -87,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): The PDV is a logical area in the memory where SAS builds a data set, one observation at a time.  It contains the set variables and computed variables, and the _N_ and _ERROR_ automated variables.  
 * Question (yli110-stat660): In the DATA step, what does SAS do when it initializes variables?
 - Question (jduan10-stat660): Does the remaining values reset to missing at the beginning of each loop?
+- Question (anguyen152-stat660): What occurs at the end of an iteration of the DATA step?
 
 
 
@@ -97,5 +106,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What is the best approach in obtaining a full list of columns in a table?
 * Question (yli110-stat660): What are the three appoaches to obtain columns information in SAS?
 - Question (jduan10-stat660): Can we paste the PROC SQL output information into a Excel file that is not empty?
+- Question (anguyen152-stat660): Can we print out the dataset and then choose the names of the columns manually ? 
 
 
