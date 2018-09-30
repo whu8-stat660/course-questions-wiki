@@ -23,6 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Compilation phase and execution phase. During the compilation phase, the program data vector is created. The descriptor portion of the new SAS data set is created at the end of the compilation phase. Observations are not written until the execution phase.
 - Question (mphan12-stat660): What items are created during the compilation phase?
 - Answer (mphan12-stat660): The input buffer, program data vector (PDV) and descriptor information are created during the compilation phase.
+* Question (yli110-stat660): What are created in the DATA compilation phase?
+* Answer (yli110-stat660): input buffer, program data vector, descriptor portion.
 
 
 
@@ -33,6 +35,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Syntax checking can detect common errors such as invalid options or missing punctuation, but not the values of variables and formats.
 - Question (mphan12-stat660): What errors are detected during the compilation phase?
 - Answer (mphan12-stat660): Misspelled keywords and data set names, unbalanced quotation marks, and invalid options are detected during the compilation phase.
+* Question (yli110-stat660): What are common syntax errors?
 
 
 
@@ -42,6 +45,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): The DATA step executes once for each record in the input file, unless otherwise directed.
 - Question (mphan12-stat660): What are the two phases that occurs in the DATA step process?
 - Answer (mphan12-stat660): The compilation and executuion phases.  The compilation phase checks for syntax and compiles them.  During the execution phase, each raw data record is processed and is then written to the data set as an observation.
+* Question (yli110-stat660): How do you compare DATA step and loop?
+* Answer (yli110-stat660): They are quite similar to some extents, as both will keep going unless running into a stop mark.
 
 
 
@@ -51,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): The _N_ automatic variable represents the number of times the DATA step has iterated.
 - Question (mphan12-stat660): What does _N_ represents?
 - Answer (mphan12-stat660): _N_ is an automatic variable that represents the number of times the DATA step has iterated. Typically aligns to number of observations read/created.
+* Question (yli110-stat660): What are the possible values for the variable __ERROR__?
+* Answer (yli110-stat660): 0 or 1.
 
 
 
@@ -60,6 +67,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): What would the value of _ERROR_ would be?
 - Answer(whu8-stat660): 0 or 1. Zero means there is no data error while 1 represents one or multiple errors.
 - Question (mphan12-stat660): How does the DEBUG (i.e. DATA dsname / DEBUG) identify errors efficiently?
+* Question (yli110-stat660): What does each value in the previous problem mean?
 
 
 
@@ -69,6 +77,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): We could arrange the order by defining it in the DATA step.
 - Question (mphan12-stat660): What is the program data vector (PDV)?
 - Answer (mphan12-stat660): The PDV is a logical area in the memory where SAS builds a data set, one observation at a time.  It contains the set variables and computed variables, and the _N_ and _ERROR_ automated variables.  
+* Question (yli110-stat660): In the DATA step, what does SAS do when it initializes variables?
 
 
 
@@ -77,5 +86,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) Seems it depends on the discrimination analysis approach you take. 
 - Question (whu8-stat660): What’s the use of dictionary library in approach 3?
 - Question (mphan12-stat660): What is the best approach in obtaining a full list of columns in a table?
+* Question (yli110-stat660): What are the three appoaches to obtain columns information in SAS?
 
 
