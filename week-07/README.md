@@ -37,7 +37,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 11, Problem 8]
 - Question (mphan12-stat660): How would you write similar IF-THEN statement in PROC SQL?
-- Answer (mphan12-stat660): 
 
 
 
