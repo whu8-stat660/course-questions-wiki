@@ -18,29 +18,36 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 11, Problem 2]
+- Question(llopez37-stat660) Will the labels and formats always be determined upon the last one in the program? 
 
 
 
 [Course Textbook Chapter 11, Problem 6]
+- Question(llopez37-stat660) Would this be the case with an else statement or would it be skipped since the first statement would have been true? 
+- Answer (llopez37-stat660) In this case the two if-then statements allow for both steps to process.
 
 
 
 [Course Textbook Chapter 11, Problem 7]
-
+- Question(llopez37-stat660) Can you set up different formats and lengths for specific variable names? 
 
 
 [Course Textbook Chapter 11, Problem 8]
-
+- Question(llopez37-stat660)Is else-if required if the only other statement is an otherwise statement? 
+- Answer (llopez37-stat660) From what I could find it seems its the proper syntax.
 
 
 [Course Textbook Chapter 11, Problem 9]
-
+- Question(llopez37-stat660) So no matter the length you put, it will stop on the highest length name that exists?
+- Answer(llopez37-stat660) Correct, but it seems that with numerical values this could add unnecessary zeros. 
 
 
 [Course Textbook Chapter 11, Problem 10]
+- Question(llopez37-stat660) Is this due to the fact that drop and keep needs to be in the beginning parts of the data step?
 
 
 
 [Week 7 SAS Recipe: print-to-log-with-macro-variables]
+- Question(llopez37-stat660)
 
 
