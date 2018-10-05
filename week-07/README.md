@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(llopez37-stat660) Will the labels and formats always be determined upon the last one in the program? 
 - Question (anguyen152-stat660): What types of formats can we assign to a variable in SAS ? 
 - Question (jduan10-stat660): If we assign temporary labels or formats within a PROC step, will they override any permanent labels or formats during the DATA step?
+* Question (yli110-stat660): What is the difference between assigning labels and formats temporarily and permanently?
+* Answer (yli110-stat660): Temporary labels and formats are applicable only for the duration of the step. If you assign temporary labels or formats with a PROC step, they override any permanent labels and formats that were assigned during the DATA step.
 
 
 
@@ -39,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660): No, the "do" and "then" steps are not separated by a ";"
 - Question (jduan10-stat660): What’s the order of logical comparisons?
 - Answer (jduan10-stat660): Logical comparisons that are enclosed in parentheses are evaluated as true or false before they are compared to other expressions. 
+* Question (yli110-stat660): What does the statement *count +1* do?
+* Answer (yli110-stat660): it adds one to the variable *count* for each observation as SAS processes the step.
 
 
 
@@ -50,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(llopez37-stat660) Can you set up different formats and lengths for specific variable names? 
 - Question (anguyen152-stat660): Are the "Length" values numeric all the time ? 
 - Question (jduan10-stat660): Can we use LENGTH statement after the first value is referenced in the DATA step?
+* Question (yli110-stat660): What are the possilbe ways to determine the length of a new variable?
 
 
 
@@ -62,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660): Can we use "and" for multiple conditions in if-then statement ?
 - Question (jduan10-stat660): How to test the conditional logic?
 - Answer (jduan10-stat660): Use the PUT statement.
+* Question (yli110-stat660): What is the advantage to use IF-THEN/ELSE instead of repeated IF-THEN?
+* Answer (yli110-stat660): ELSE executes only if the previous IF-THEN/ELSE statement is false, thus avoids to execute each IF statement in order.
 
 
 
@@ -76,6 +83,7 @@ reference to the variable in the DATA step.
 - Question (anguyen152-stat660): What if there are 2 length statements for 1 same variable in a program ? 
 - Question (jduan10-stat660): Why do we need to use a $ before the variable name?
 - Answer (jduan10-stat660): Because TestLength is a character variable.
+* Question (yli110-stat660): What is the correct position of LENGTH statement if you want to define the length of a new variable?
 
 
 
@@ -88,6 +96,7 @@ reference to the variable in the DATA step.
 - Question (anguyen152-stat660): In a dataset of 10 variables, if we use "keep" statement to keep 3 variables , will the other 7 variables be dropped ?
 - Answer (anguyen152-stat660): Yes, the other 7 variables will not be written out. The KEEP statement causes a DATA step to write only the variables that you specify to one or more SAS data sets. The KEEP statement applies to all SAS data sets that are created within the same DATA step and can appear anywhere in the step. If no KEEP or DROP statement appears, all data sets that are created in the DATA step contain all variables. 
 - Question (jduan10-stat660): Can we use DROP or KEEP statement in the SAS procedure steps?
+* Question (yli110-stat660): What are the differences between DROP or KEEP statement and DROP= or KEEP= data set options?
 
 
 
@@ -100,5 +109,6 @@ reference to the variable in the DATA step.
 - Question (anguyen152-stat660): What does a %put macro do ? 
 - Answer (anguyen152-stat660): It's the simplest way to display macro variable values, which writes text to the SAS log. 
 - Question (jduan10-stat660): Do we need to write Quit or Run in the macro demand?
+* Question (yli110-stat660): What is the difference when dereferencing a macro variable by using *&varialbe.* and *&=variable.*
 
 
