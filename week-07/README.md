@@ -23,6 +23,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): Will temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step?
 - Answer(whu8-stat660): Yes,it will.
 - Question(llopez37-stat660) Will the labels and formats always be determined upon the last one in the program? 
+- Question (anguyen152-stat660): What types of formats can we assign to a variable in SAS ? 
 
 
 
@@ -33,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Yes, SAS will check each if condition even previous condistion is met. 
 - Question(llopez37-stat660) Would this be the case with an else statement or would it be skipped since the first statement would have been true? 
 - Answer (llopez37-stat660) In this case the two if-then statements allow for both steps to process.
+- Question (anguyen152-stat660): Do we have to put a ";" after an if-then statement that's followed by a "do-end" statement?  
+- Answer (anguyen152-stat660): No, the "do" and "then" steps are not separated by a ";"
 
 
 
@@ -42,6 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660): How can we determin the length of a new variable if there's no LENGTH statement nor assignment statement?
 - Answer(whu8-stat660): In this case, the length of the variable's first reference in the DATA step will determin the length.
 - Question(llopez37-stat660) Can you set up different formats and lengths for specific variable names? 
+- Question (anguyen152-stat660): Are the "Length" values numeric all the time ? 
 
 
 
@@ -51,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): No,the ELSE statement must immediately follow the IF-THEN statment in the program.
 - Question(llopez37-stat660)Is else-if required if the only other statement is an otherwise statement? 
 - Answer (llopez37-stat660) From what I could find it seems its the proper syntax.
+- Question (anguyen152-stat660): Can we use "and" for multiple conditions in if-then statement ?
 
 
 
@@ -62,6 +67,7 @@ reference to the variable in the DATA step.
 - Answer(whu8-stat660): The LENGTH statement must occur before any other reference to the variable in the DATA step.
 - Question(llopez37-stat660) So no matter the length you put, it will stop on the highest length name that exists?
 - Answer(llopez37-stat660) Correct, but it seems that with numerical values this could add unnecessary zeros. 
+- Question (anguyen152-stat660): What if there are 2 length statements for 1 same variable in a program ? 
 
 
 
@@ -71,6 +77,8 @@ reference to the variable in the DATA step.
 - Question (whu8-stat660): Can DORP or KEEP statement use in PROC steps?
 - Answer(whu8-stat660): No, but you can use the DROP= or KEEP= data set options following a data set name in any DATA or PROC step.
 - Question(llopez37-stat660) Is this due to the fact that drop and keep needs to be in the beginning parts of the data step?
+- Question (anguyen152-stat660): In a dataset of 10 variables, if we use "keep" statement to keep 3 variables , will the other 7 variables be dropped ?
+- Answer (anguyen152-stat660): Yes, the other 7 variables will not be written out. The KEEP statement causes a DATA step to write only the variables that you specify to one or more SAS data sets. The KEEP statement applies to all SAS data sets that are created within the same DATA step and can appear anywhere in the step. If no KEEP or DROP statement appears, all data sets that are created in the DATA step contain all variables. 
 
 
 
@@ -80,5 +88,7 @@ reference to the variable in the DATA step.
 - Question (whu8-stat660): What's the meaning of '%put _user_'?
 - Answer(whu8-stat660): It prints the names of all user-defined macro variables and their values,possibly along with some automatically generated macro variables.
 - Question(llopez37-stat660) Is the use case for this in order to collaborate with others when it comes to writing code or what is the benefit of printing this directly to the log window? 
+- Question (anguyen152-stat660): What does a %put macro do ? 
+- Answer (anguyen152-stat660): It's the simplest way to display macro variable values, which writes text to the SAS log. 
 
 
