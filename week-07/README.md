@@ -48,6 +48,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 7 SAS Recipe: print-to-log-with-macro-variables]
-- Question(llopez37-stat660)
+- Question(llopez37-stat660) Is the use case for this in order to collaborate with others when it comes to writing code or what is the benefit of printing this directly to the log window? 
 
 
