@@ -18,29 +18,40 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 11, Problem 2]
+- Question (jduan10-stat660): If we assign temporary labels or formats within a PROC step, will they override any permanent labels or formats during the DATA step?
 
 
 
 [Course Textbook Chapter 11, Problem 6]
+- Question (jduan10-stat660): What’s the order of logical comparisons?
+- Answer (jduan10-stat660): Logical comparisons that are enclosed in parentheses are evaluated as true or false before they are compared to other expressions. 
 
 
 
 [Course Textbook Chapter 11, Problem 7]
+- Question (jduan10-stat660): Can we use LENGTH statement after the first value is referenced in the DATA step?
 
 
 
 [Course Textbook Chapter 11, Problem 8]
+- Question (jduan10-stat660): How to test the conditional logic?
+- Answer (jduan10-stat660): Use the PUT statement.
 
 
 
 [Course Textbook Chapter 11, Problem 9]
+- Question (jduan10-stat660): Why do we need to use a $ before the variable name?
+- Answer (jduan10-stat660): Because TestLength is a character variable.
 
 
 
 [Course Textbook Chapter 11, Problem 10]
+- Question (jduan10-stat660): Can we use DROP or KEEP statement in the SAS procedure steps?
 
 
 
 [Week 7 SAS Recipe: print-to-log-with-macro-variables]
+- Question (jduan10-stat660): Do we need to write Quit or Run in the macro demand?
+
 
 
