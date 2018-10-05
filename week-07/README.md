@@ -20,23 +20,31 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 11, Problem 2]
 - Question (mphan12-stat660): What statement is used to create a variable that adds a variable's sum?
 - Answer (mphan12-stat660): To add the result of an expression to an accumulator variable use a sum statement in your DATA step.
+- Question (whu8-stat660): Will temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step?
+- Answer(whu8-stat660): Yes,it will.
 
 
 
 [Course Textbook Chapter 11, Problem 6]
 - Question (mphan12-stat660): What is another alternative of writing IF-THEN statement?
 - Answer (mphan12-stat660): An alternative control statement in SAS is the SELECT-WHEN statement. The SELECT-WHEN statement enables you to conditionally execute statements based on the value of a single categorical variable.
+- Question (whu8-stat660): When if-then is used, will SAS check each condition even the first condition is already satisfied?
+- Answer(whu8-stat660): Yes, SAS will check each if condition even previous condistion is met. 
 
 
 
 [Course Textbook Chapter 11, Problem 7]
 - Question (mphan12-stat660): Where should the length statement be written at in DATA step.
 - Answer (mphan12-stat660): The length of a variable is determined by its first reference in the DATA step. Therefore the first reference to a new variable made with a LENGTH statement should be placed before the SET or MERGE statement.
+- Question (whu8-stat660): How can we determin the length of a new variable if there's no LENGTH statement nor assignment statement?
+- Answer(whu8-stat660): In this case, the length of the variable's first reference in the DATA step will determin the length.
 
 
 
 [Course Textbook Chapter 11, Problem 8]
 - Question (mphan12-stat660): How would you write similar IF-THEN statement in PROC SQL?
+- Question (whu8-stat660): In the IF-THEN-ELSE statement, can we write 'else' after two 'if-then' statements?
+- Answer(whu8-stat660): No,the ELSE statement must immediately follow the IF-THEN statment in the program.
 
 
 
@@ -44,17 +52,23 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): Why did the LENGTH statement not work?
 - Answer (mphan12-stat660): The length of a new variable is determined by the first reference in the DATA step, not by data values. In this case, the length of Type is determined by the value Fixed. The LENGTH statement is in the wrong place; it must occur before any other
 reference to the variable in the DATA step.
+- Question (whu8-stat660): If we want to set the length of a new variable using the LENGTH statement, where should we put it?
+- Answer(whu8-stat660): The LENGTH statement must occur before any other reference to the variable in the DATA step.
 
 
 
 [Course Textbook Chapter 11, Problem 10]
 - Question (mphan12-stat660): Why did the drop statement not work in PROC PRINT procedure?
 - Answer (mphan12-stat660): You cannot use DROP or KEEP statements in PROC steps.
+- Question (whu8-stat660): Can DORP or KEEP statement use in PROC steps?
+- Answer(whu8-stat660): No, but you can use the DROP= or KEEP= data set options following a data set name in any DATA or PROC step.
 
 
 
 [Week 7 SAS Recipe: print-to-log-with-macro-variables]
 - Question (mphan12-stat660): What does "%put _user_;" do?
 - Answer (mphan12-stat660): Prints out all user-defined macro variable name and their value.
+- Question (whu8-stat660): What's the meaning of '%put _user_'?
+- Answer(whu8-stat660): It prints the names of all user-defined macro variables and their values,possibly along with some automatically generated macro variables.
 
 
