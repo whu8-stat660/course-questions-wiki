@@ -18,30 +18,40 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+* Question (yli110-stat660): In one-to-one matching, how does SAS determine the number of observations in the new data set?
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+* Question (yli110-stat660): What is the difference between concatenating and interleaving?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+* Question (yli110-stat660): In concatenating, what happens when the two data sets in the SET statement have different variables?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+* Question (yli110-stat660): What is the difference between SET and MERGE?
+* Answer (yli110-stat660): Basically, SET stacks two data sets vertically, and MERGE combines two data sets horizontally.
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+* Question (yli110-stat660): When merging two data sets, what happens if you have variables with the same name but different values?
+* Answer (yli110-stat660): If having variables with the same name but different values, values of the same-named ariable in the first data set will be overwritten by values of the same-named variable in subsequent data sets.
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+* Question (yli110-stat660): how do you prevent the overwriting scenario described in the last question?
+* Answer (yli110-stat660): To prevent overwriting, rename variables by using the RENAME= data set option in the MERGE statement.
 
 
 
 [Course Textbook Chapter 13, Problem 9]
+* Question (yli110-stat660): When merging data sets, what happens when the BY variable is not sorted?
 
 
 
