@@ -60,13 +60,13 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 9 SAS Recipe: basic_recipe_for_combining_data_horizontally]
-- Question (mphan12-stat660): 
+- Question (mphan12-stat660): Why is it necessary to use the LABEL statement?
 - Answer (mphan12-stat660): 
 
 
 
 [Week 9 SAS Recipe: adv_recipe_for_combining_data_horizontally]
-- Question (mphan12-stat660): 
-- Answer (mphan12-stat660): 
+- Question (mphan12-stat660): What does COALESCE function do?
+- Answer (mphan12-stat660): Returns the first non-null or nonmissing value from a list of numeric arguments.
 
 
