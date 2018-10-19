@@ -33,6 +33,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets,and all the variables from all the input data sets appear in the new data set.
 
 
+
 [Course Textbook Chapter 13, Problem 4]
 - Question (whu8-stat660):What's the difference between concatenating and merging data sets?
 
@@ -43,9 +44,11 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Values of the same-named variable in subsequent data sets will overwrite the first data set.
 
 
+
 [Course Textbook Chapter 13, Problem 7]
 - Question (whu8-stat660):How to prevent overwriting the same-named variables when merging data sets?
 - Answer(whu8-stat660): Rename variables by using the RENAME= data set option in the MERGE statement.
+
 
 
 [Course Textbook Chapter 13, Problem 9]
@@ -53,11 +56,14 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): No, the new data set contains one observation for each unique value of the variables in BY statement.
 
 
+
 [Week 9 SAS Recipe: basic_recipe_for_combining_data_horizontally]
 - Question (whu8-stat660):What's the use of BY statment in match-merging?
 - Answer(whu8-stat660): The BY statment is used to name the unique columns which specify how rows are to be matched up when combing the datasets.
 
 
+
 [Week 9 SAS Recipe: adv_recipe_for_combining_data_horizontally]
 - Question (whu8-stat660):What are the differences between sql and proc sql?
+
 
