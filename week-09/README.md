@@ -56,9 +56,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 9 SAS Recipe: basic_recipe_for_combining_data_horizontally]
+* Question (yli110-stat660): What statement is used to merge dataset horizontally in SAS?
 
 
 
 [Week 9 SAS Recipe: adv_recipe_for_combining_data_horizontally]
-
-
+* Question (yli110-stat660): What is the disadvantage of using PROC SQL to combine data sets horizontally.
