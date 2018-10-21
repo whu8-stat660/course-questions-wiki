@@ -30,7 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 13, Problem 3]
 - Question (llopez37-stat660) So if no by statement is used then the smallest size of observations is what follows? 
-- Answer (llopez36-stat660) From googling it seems that if the size of the output matches it will follow through together without drop off as opposed to problem 1
+- Answer (llopez37-stat660) From googling it seems that if the size of the output matches it will follow through together without drop off as opposed to problem 1
 
 
 
