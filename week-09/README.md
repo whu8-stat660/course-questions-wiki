@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): Use multiple SET statements in a DATA step to combine data sets. One-to-one reading combines rows from two or more data sets by creating rows that contain all of the columns from each contributing data set. Rows are combined based on their relative position in each data set. That is, the first row in one data set is combined with the first in the other, and so on. The data program stops after it has read the last row from the smallest data set.
 * Question (yli110-stat660): In one-to-one matching, how does SAS determine the number of observations in the new data set?
 - Question (llopez37-stat660) Why does it not combine all and leave missing for some observations?
+- Question (whu8-stat660):What would the number of observations in the result if the second data set has more observations than the first one when doing one-to-one matching?
+- Answer(whu8-stat660): The number of observations in the new data set is the number of observations in the smallest original data set.
 
 
 
@@ -31,6 +33,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What is the difference between concatenating and interleaving?
 - Question (llopez37-stat660) In order to preserve all observations is the by statement necessary?
 - Answer (llopez37-stat660) It seems that the by statement preserves all observations in that variable
+- Question (whu8-stat660):What's the use of BY statement in interleaving combining?
 
 
 
@@ -40,6 +43,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): In concatenating, what happens when the two data sets in the SET statement have different variables?
 - Question (llopez37-stat660) So if no by statement is used then the smallest size of observations is what follows? 
 - Answer (llopez37-stat660) From googling it seems that if the size of the output matches it will follow through together without drop off as opposed to problem 1
+- Question (whu8-stat660):What is concatenating?
+- Answer(whu8-stat660): Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets,and all the variables from all the input data sets appear in the new data set.
 
 
 
@@ -49,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What is the difference between SET and MERGE?
 * Answer (yli110-stat660): Basically, SET stacks two data sets vertically, and MERGE combines two data sets horizontally.
 - Question (llopez37-stat660) Is this due to the fact that there are multiple ID variables with observation 2?
+- Question (whu8-stat660):What's the difference between concatenating and merging data sets?
 
 
 
@@ -58,6 +64,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): When merging two data sets, what happens if you have variables with the same name but different values?
 * Answer (yli110-stat660): If having variables with the same name but different values, values of the same-named ariable in the first data set will be overwritten by values of the same-named variable in subsequent data sets.
 - Question (llopez37-stat660) Is there a way to have data set 1 overwrite data set 2 in case you have the improper order of data sets for when you merge?
+- Question (whu8-stat660):What would happen when merging data sets with same name variables in more than one input data set?
+- Answer(whu8-stat660): Values of the same-named variable in subsequent data sets will overwrite the first data set.
 
 
 
@@ -67,6 +75,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): how do you prevent the overwriting scenario described in the last question?
 * Answer (yli110-stat660): To prevent overwriting, rename variables by using the RENAME= data set option in the MERGE statement.
 - Question (llopez37-stat660) Why does ths prevent blue from being overwritten does it rename it as it process the code or what is the stack look like in this process? 
+- Question (whu8-stat660):How to prevent overwriting the same-named variables when merging data sets?
+- Answer(whu8-stat660): Rename variables by using the RENAME= data set option in the MERGE statement.
 
 
 
@@ -75,6 +85,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): To prevent overwriting, you can rename variables by using the RENAME= data set option in the MERGE statement.
 * Question (yli110-stat660): When merging data sets, what happens when the BY variable is not sorted?
 - Question (llopez37-stat660) If we did not use the by statement here, then it would only be 4 observations?
+- Question (whu8-stat660):Will there be duplicate values in the BY statement variable when merging data sets?
+- Answer(whu8-stat660): No, the new data set contains one observation for each unique value of the variables in BY statement.
 
 
 
@@ -83,6 +95,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What statement is used to merge dataset horizontally in SAS?
 - Question (llopez37-stat660) How exactly does merge differ from combining the sets with what we learned in the chapter? 
 - Answer (llopez37-stat660) It seems that merge will force combine the data sets but with the other method it will base it off of by statements or the size of rows on the second data set.
+- Question (whu8-stat660):What's the use of BY statment in match-merging?
+- Answer(whu8-stat660): The BY statment is used to name the unique columns which specify how rows are to be matched up when combing the datasets.
 
 
 
@@ -91,5 +105,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mphan12-stat660): Returns the first non-null or nonmissing value from a list of numeric arguments.
 * Question (yli110-stat660): What is the disadvantage of using PROC SQL to combine data sets horizontally.
 - Question (llopez37-stat660) Is proc sql limitations on memory or why do we not focus on proc sql since it seems so powerful? 
+- Question (whu8-stat660):What are the differences between sql and proc sql?
 
 
