@@ -26,6 +26,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): The number of observations in the new data set is the number of observations in the smallest original data set.
 - Question (anguyen152-stat660) : What's the difference between MERGE and SET statement in combining datasets ? 
 - Answer (anguyen152-stat660) : The SET statement is used to concatenate the datasets , the MERGE statement is used to match and merge datasets, which often goes with "BY" statement after that
+- Question (jduan10-stat660): By using one-to-one reading, how to determine the number of observations?
+- Answer (jduan10-stat660): The number of observations in the new data set is the number of observations in the smallest original data set.
 
 
 
@@ -38,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):What's the use of BY statement in interleaving combining?
 - Question (anguyen152-stat660) : What is "interleaving" ? 
 - Answer (anguyen152-stat660) :When you use a BY statement to concatenate data sets, the result is interleaving. Interleaving intersperses observations from two or more data sets, based on one or more common variables. Unlike concatenating datasets, interleaving command has the final data set sorted in the BY statement
+- Question (jduan10-stat660): Can we use more than two datasets at a time in one step when we appends data sets?
+- Answer (jduan10-stat660): Only two data sets can be used at a time in one step.
 
 
 
@@ -51,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Concatenating appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets,and all the variables from all the input data sets appear in the new data set.
 - Question (anguyen152-stat660) : How SAS concatenate 2 datasets without no variables in common ? 
 - Answer (anguyen152-stat660) : It will appends the observations from one data set to another data set. The new data set contains the total number of records from all input data sets.
+- Question (jduan10-stat660): By using Concatenating, what will happen if the common variable doesn’t have the same type attribute?
+- Answer (jduan10-stat660): SAS stops processing the DATA step and issues an error message stating that the variables are incompatible.
 
 
 
@@ -62,6 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) Is this due to the fact that there are multiple ID variables with observation 2?
 - Question (whu8-stat660):What's the difference between concatenating and merging data sets?
 - Question (anguyen152-stat660) : When should we use SET and when should we use MERGE ? 
+- Question (jduan10-stat660): How’s the length of datasets be determined when concatenates data sets?
 
 
 
@@ -75,6 +82,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(whu8-stat660): Values of the same-named variable in subsequent data sets will overwrite the first data set.
 - Question (anguyen152-stat660) : What if the values are different for 2 same-name variables in "MERGE" step ? 
 - Answer (anguyen152-stat660) :If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets.
+- Question (jduan10-stat660): Whats the difference between merge statement and set statement?
 
 
 
@@ -87,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):How to prevent overwriting the same-named variables when merging data sets?
 - Answer(whu8-stat660): Rename variables by using the RENAME= data set option in the MERGE statement.
 - Question (anguyen152-stat660) : What if I want to keep both "Blue" variables in 2 datasets without renaming it ? 
+- Question (jduan10-stat660): How many variables can be put in the RENAME= option?
 
 
 
@@ -98,6 +107,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):Will there be duplicate values in the BY statement variable when merging data sets?
 - Answer(whu8-stat660): No, the new data set contains one observation for each unique value of the variables in BY statement.
 - Question (anguyen152-stat660) : How to eliminate some specific records out of the final dataset after merging the 2 ?
+- Question (jduan10-stat660): Can we use DESCENDING option in indexed data sets?
 
 
 
@@ -109,6 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):What's the use of BY statment in match-merging?
 - Answer(whu8-stat660): The BY statment is used to name the unique columns which specify how rows are to be matched up when combing the datasets.
 - Question (anguyen152-stat660) : Why do we have 2 INPUT statement at the end of the recipe ?
+- Question (jduan10-stat660): What’s the difference between “where” statement and “if” statement in the data step?
 
 
 
@@ -119,5 +130,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) Is proc sql limitations on memory or why do we not focus on proc sql since it seems so powerful? 
 - Question (whu8-stat660):What are the differences between sql and proc sql?
 - Question (anguyen152-stat660) : What's the "full join" command mean in this recipe? 
+- Question (jduan10-stat660): What’s the meaning of “left join” or “inner join”?
 
 
