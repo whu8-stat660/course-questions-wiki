@@ -19,7 +19,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 1]
 - Question (mphan12-stat660): How do you calculate the average in SQL?
-- Answer (mphan12-stat660): 
 
 
 
@@ -63,11 +62,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 10 SAS Recipe: basic_recipe_for_combining_data_vertically]
-- Question (mphan12-stat660): 
+- Question (mphan12-stat660): When combining the data vertically, will using a MERGE statement create different results than SET statement?
 
 
 
 [Week 10 SAS Recipe: adv_recipe_for_combining_data_vertically]
-- Question (mphan12-stat660): 
-
+- Question (mphan12-stat660): What does the SELECT * do?
+- Answer (mphan12-stat660): Selects ALL the columns in the table.
 
