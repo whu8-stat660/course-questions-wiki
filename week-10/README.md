@@ -70,3 +70,4 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): What does the SELECT * do?
 - Answer (mphan12-stat660): Selects ALL the columns in the table.
 
+
