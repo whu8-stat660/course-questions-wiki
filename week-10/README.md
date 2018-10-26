@@ -18,41 +18,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 14, Problem 1]
+- Question (jduan10-stat660): If a function does not require arguments, should the function name be followed by parentheses?
+- Answer (jduan10-stat660): It, there should be parentheses.
 
 
 
 [Course Textbook Chapter 14, Problem 2]
+- Question (jduan10-stat660): Whats the difference between INPUT and PUT function?
+- Answer (jduan10-stat660): INPUT function converts character data to numeric, while PUT function converts numeric to character.
 
 
 
 [Course Textbook Chapter 14, Problem 3]
+- Question (jduan10-stat660): If a character variable is multiplied by a numeric variable, what type of the new variable?
+- Answer (jduan10-stat660): Numeric variable.
 
 
 
 [Course Textbook Chapter 14, Problem 4]
+- Question (jduan10-stat660): What will happen if I omit INPUT or PUT function?
 
 
 
 [Course Textbook Chapter 14, Problem 5]
+- Question (jduan10-stat660): How many digits value does the YEAR function returns?
 
 
 
 [Course Textbook Chapter 14, Problem 6]
+- Question (jduan10-stat660): How many variables can be put in the RENAME= option?
 
 
 
 [Course Textbook Chapter 14, Problem 7]
+- Question (jduan10-stat660): If n is negative, what does SCAN function select?
 
 
 
 [Course Textbook Chapter 14, Problem 10]
+- Question (jduan10-stat660): Is the INDEX function case sensitive?
 
 
 
 [Week 10 SAS Recipe: basic_recipe_for_combining_data_vertically]
+- Question (jduan10-stat660): Can we leave “do” and “end” in the “then” and “else” structure?
 
 
 
 [Week 10 SAS Recipe: adv_recipe_for_combining_data_vertically]
+- Question (jduan10-stat660): What’s the word “union” mean in the PROC SQL statement?
 
 
