@@ -63,9 +63,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 10 SAS Recipe: basic_recipe_for_combining_data_vertically]
+* Question (yli110-stat660): How do you create an indicator variable in the SET statement when combining datasets vertically?
 
 
 
 [Week 10 SAS Recipe: adv_recipe_for_combining_data_vertically]
-
-
+* Question (yli110-stat660): What is the tradeoff for using PROC SQL to combine datasets vertically?
