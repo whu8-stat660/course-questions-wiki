@@ -27,6 +27,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): don't forget to include of to indicate the list. This is very different from MEAN() in R, which only takes one vector and compute the mean for that factor.
 - Question (jduan10-stat660): If a function does not require arguments, should the function name be followed by parentheses?
 - Answer (jduan10-stat660): It, there should be parentheses.
+- Question (whu8-stat660): What would happen if 'of' is omitted in the mean function?
+- Answer (whu8-stat660): The word 'of' is used when a variable list is used to specify a range of variables as the function argument,if it is omitted, the function argument might not be interpreted as expected.
 
 
 
@@ -38,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What happens when SAS automatically converts a character variable into numeric?
 - Question (jduan10-stat660): Whats the difference between INPUT and PUT function?
 - Answer (jduan10-stat660): INPUT function converts character data to numeric, while PUT function converts numeric to character.
+- Question (whu8-stat660): When data type is automaticlly converted, will a message is written to the SAS log stating the conversion?
+- Answer (whu8-stat660): Yes.
 
 
 
@@ -50,6 +54,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (yli110-stat660): INPUT
 - Question (jduan10-stat660): If a character variable is multiplied by a numeric variable, what type of the new variable?
 - Answer (jduan10-stat660): Numeric variable.
+- Question (whu8-stat660):What's the difference between 'input' and 'put' function?
+- Answer (whu8-stat660): The 'input' function is used to convert character values to numeric values while 'put' is used the opposite way.
 
 
 
@@ -61,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): Which statement is used to convert numeric values to character values?
 * Answer (yli110-stat660): PUT
 - Question (jduan10-stat660): What will happen if I omit INPUT or PUT function?
+- Question (whu8-stat660): What's the use of format in 'put' function?
+- Answer (whu8-stat660): A right format is used to make sure the function can read the form of the values properly.
 
 
 
@@ -72,6 +80,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) This appears to be due to the 100 year case
 * Question (yli110-stat660): How does YEARCUTOFF = defines the two-digit year?
 - Question (jduan10-stat660): How many digits value does the YEAR function returns?
+- Question (whu8-stat660): What is MDY function in SAS?
+- Answer (whu8-stat660): The MDY function returns a SAS date value from month, day, and year values. Its syntax is MDY (month, day, year).The use of four-digit year values in the MDY function is recommended.
 
 
 
@@ -83,6 +93,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): Which statement do you use to extract word from a character value?
 * Answer (yli110-stat660): SCAN(), please note that in SCAN, you first define the character string, then the position of the extraction starting point, and delimiter if it's not one the defaults.
 - Question (jduan10-stat660): How many variables can be put in the RENAME= option?
+- Question (whu8-stat660): What's the use of SCAN function?
+- Answer (whu8-stat660): The SCAN function is used to extract words from a character, and the positions of words are marked by a delimiter. 
 
 
 
@@ -93,6 +105,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): Which statement do you use to extract a subset string from a character value?
 * Answer (yli110-stat660): SUBSTR()
 - Question (jduan10-stat660): If n is negative, what does SCAN function select?
+- Question (whu8-stat660): What's the difference between SUBSTR and SCAN?
+- Answer (whu8-stat660): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value while SCAN is used to extract words by its position which is marked by a delimiter.
 
 
 
@@ -102,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) What would be the syntax to make it case-sensitive? 
 * Question (yli110-stat660): When searching a subset string from a character value, how do you make the search case-sensitive, and how do you make the search case-insensitive?
 - Question (jduan10-stat660): Is the INDEX function case sensitive?
+- Question (whu8-stat660):Why 'lowcase' function is needed in this case?
 
 
 
@@ -112,6 +127,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) It seems that we would extend the amount of columns and then gain missing variables for each observation given that the variable does not exist
 * Question (yli110-stat660): How do you create an indicator variable in the SET statement when combining datasets vertically?
 - Question (jduan10-stat660): Can we leave “do” and “end” in the “then” and “else” structure?
+- Question (whu8-stat660): What's the use of indicator variables?
+- Answer (whu8-stat660): Indicator variables are created using the in= dataset option, there is a "business logic" that decisions can be made based on the indicator value.
 
 
 
@@ -123,5 +140,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) When would the limitations of RAM and proc sql realistically take place given the power of many modern machines? 
 * Question (yli110-stat660): What is the tradeoff for using PROC SQL to combine datasets vertically?
 - Question (jduan10-stat660): What’s the word “union” mean in the PROC SQL statement?
+- Question (whu8-stat660): What's the use of "union all corr"? Can we just use "union" here?
+- Answer (whu8-stat660): The operation "union all corr" means all columns resulting from both subqueries are included,columns with corresponding names names are matched up,even if in different positions.I don't think we can only use "union" here.
 
 
