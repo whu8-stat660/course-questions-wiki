@@ -78,7 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 11 SAS Recipe: ddl-and-dml-sql-queries]
-- Question (mphan12-stat660): 
-- Answer (mphan12-stat660):
+- Question (mphan12-stat660): What is DDL and DML?
+- Answer (mphan12-stat660): Data-definition-language (DDL) task, such as defining, obtaining, or modifying column information for a table.  And data-manipulation-language (DML) task, such as obtaining, creating, or modifying the rows of data in a table.
 
 
