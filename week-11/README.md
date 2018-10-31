@@ -24,8 +24,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 2]
-- Question (mphan12-stat660): 
-- Answer (mphan12-stat660):
+- Question (mphan12-stat660): What are the possible expression of specification of index-variable?
+- Answer (mphan12-stat660):Possible expressions are '='/'until'/'while' condition expressions.
 
 
 
@@ -36,9 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 4]
-- Question (mphan12-stat660): 
-- Answer (mphan12-stat660):
-
+- Question (mphan12-stat660): What is the difference between the stored index value and stopped value of index?
 
 
 
@@ -63,6 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 15, Problem 8]
 - Question (mphan12-stat660): How does the DO UNTIL statement executes?
 - Answer (mphan12-stat660):The DO UNTIL statement executes a DO loop until the expression becomes true.  The DO UNTIL statements enable you to execute statements conditionally and that the iterative DO statement enables you to execute statements a set number of times, unconditionally.
+
 
 
 [Course Textbook Chapter 15, Problem 9]
