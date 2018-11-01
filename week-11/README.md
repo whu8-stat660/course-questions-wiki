@@ -75,5 +75,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 11 SAS Recipe: ddl-and-dml-sql-queries]
-- Question (whu8-stat660):
+- Question (whu8-stat660):What is DDL and DML?
+- Answer (whu8-stat660):DDL is the data-definition language, meaning they define, obtain, or modify column information in a table or delete a table entirely. DML is the data-manipulation language,meaning they obtain, create, modify or delete rows of data in a table.
 
