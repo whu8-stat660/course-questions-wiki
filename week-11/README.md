@@ -71,6 +71,4 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 11 SAS Recipe: ddl-and-dml-sql-queries]
-* Question (yli110-stat660)
-
-
+* Question (yli110-stat660): What is the difference between DDL and DML?
