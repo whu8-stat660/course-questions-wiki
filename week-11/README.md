@@ -26,6 +26,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : When we need to iterate over parameters in an algorithm or indices in an array.
 - Question (jduan10-stat660): Can we change the index variable within the DO Group?
 - Answer (jduan10-stat660): No, we can’t.
+* Question (yli110-stat660): Can DO loops be used with PROC step?
+* Answer (yli110-stat660): No, DO loops are DATA step statements, and cannot be conjuaged with PROC steps.
 
 
 
@@ -37,6 +39,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Why dont we need the "BY" increment statement sometimes in our DO loops ? 
 - Question (jduan10-stat660): Does DO Loop step read data from external sources?
 - Answer (jduan10-stat660): DO Loop step does not read data from an external source.
+* Question (yli110-stat660): How is the number of iterations determined in the DO statement?
 
 
 
@@ -48,6 +51,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Will the year values(1-15) will be included in the final dataset ? 
 - Question (jduan10-stat660): What can we do to stop a loop?
 - Answer (jduan10-stat660): Change the value of index variable or use LEAVE statement.
+* Question (yli110-stat660): How do you avoid infinite loops in DO loops?
 
 
 
@@ -57,6 +61,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Why "do year=1990 to 2004;" but the stored value of year is 2005 ? 
 - Answer (anguyen152-stat660) : At the end of the 15th iteration of the DO loop, the value for Year is incremented to 2005. Because this value exceeds the stop value, the DO loop ends. At the bottom of the DATA step, the current values are written to the data set.
 - Question (jduan10-stat660): What value does the sum statement store?
+* Question (yli110-stat660): How does DO loop stopy?
+* Answer (yli110-stat660): When the index variable has a value that exceeds the stop value in do loop, the loop will stop. However the index variable will be stored as it's latest number.
 
 
 
@@ -67,6 +73,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : What's the function of the OUTPUT statement in this case ? 
 - Answer (anguyen152-stat660) : The OUTPUT statement overrides the automatic output at the end of the DATA step. On the last iteration of the DO loop, the value of Year, 2004, is written to the data set.
 - Question (jduan10-stat660): What will happen if I add output outside the Do loop?
+* Question (yli110-stat660): How does the OUTPUT in DO loop change the stored value of the index variable?
+* Answer (yli110-stat660): Without the OUTPUT statement, index variable exceeds the stop value, and the loop writes out the observation with which the index has already exceeds the stop value. With OUTPUT statement, on the other hand, writes observations out at end of each iteration, thus the last observation will include the index variable with the stop value.
 
 
 
@@ -78,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : How many observations will the data set Work.Earn contain without the OUTPUT statement ? 
 - Question (jduan10-stat660): How to separate items in the do loop series?
 - Answer (jduan10-stat660): Use comma to separate.
+* Question (yli110-stat660): How does SAS determine the number of observations written out in the OUTPUT statement in DO loop?
 
 
 
@@ -87,6 +96,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (whu8-stat660):What's the use of nested Do loops?
 - Question (anguyen152-stat660) :When will nested DO loops work ?
 - Question (jduan10-stat660): What is the difference between DO WHILE and DO UNTIL?
+* Question (yli110-stat660): When do you use nested DO loops?
 
 
 
@@ -98,6 +108,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Does "DO WHILE" statement have its condition being evaluated at the bottom of the loop like the "DO UNTIL" statement ? 
 - Answer (anguyen152-stat660) : No. DO WHILE loop is evaluated at the top of the loop, you specify the condition that must exist in order to execute the enclosed statements.
 - Question (jduan10-stat660): Is there index variable in DO UNTIL?
+* Question (yli110-stat660): What is the difference between DO UNTIL and DO WHILE?
 
 
 
@@ -109,6 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : What does "gt" in this statement "do until(Capital gt 500000)" mean ?
 - Answer (anguyen152-stat660) : "gt" means "greater than"
 - Question (jduan10-stat660): When does DO WHILE step stop?
+* Question (yli110-stat660): How do you manipulate DO UNTIL and DO WHILE for them to produce the same results?
 
 
 
@@ -120,6 +132,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Does SAS have "DO WHEN" and "DO OVER" loops ?
 - Answer (anguyen152-stat660) : No. Using "DO WHILE" and "DO UNTIL" instead
 - Question (jduan10-stat660): Can we use do loop within another do loop?
+* Question (yli110-stat660): What the difference of DO UNITL and DO WHILE in terms of the number of executions of the loop?
 
 
 
@@ -130,5 +143,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (whu8-stat660):DDL is the data-definition language, meaning they define, obtain, or modify column information in a table or delete a table entirely. DML is the data-manipulation language,meaning they obtain, create, modify or delete rows of data in a table.
 - Question (anguyen152-stat660) : What if we want to change the values of a specific row in the iris dataset ? 
 - Question (jduan10-stat660): How can we process date type columns in SQL?
+* Question (yli110-stat660): What is the difference between DDL and DML?
 
 
