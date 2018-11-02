@@ -28,6 +28,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jduan10-stat660): No, we can’t.
 * Question (yli110-stat660): Can DO loops be used with PROC step?
 * Answer (yli110-stat660): No, DO loops are DATA step statements, and cannot be conjuaged with PROC steps.
+- Question (llopez37-stat660) Is there a way to combine these steps like we do with nested do loops?
+- Answer (llopez37-stat660) It seems like you cannot do this 
 
 
 
@@ -40,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): Does DO Loop step read data from external sources?
 - Answer (jduan10-stat660): DO Loop step does not read data from an external source.
 * Question (yli110-stat660): How is the number of iterations determined in the DO statement?
+- Question (llopez37-stat660) It only tries to execute a plus one step but it does not count is that the case here? 
+- Answer (llopez37-stat660) yes this is what google has explained that it attempts it but fails
 
 
 
@@ -52,6 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): What can we do to stop a loop?
 - Answer (jduan10-stat660): Change the value of index variable or use LEAVE statement.
 * Question (yli110-stat660): How do you avoid infinite loops in DO loops?
+- Question (llopez37-stat660) could we replace the 10% with the by statement? 
 
 
 
@@ -63,6 +68,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): What value does the sum statement store?
 * Question (yli110-stat660): How does DO loop stopy?
 * Answer (yli110-stat660): When the index variable has a value that exceeds the stop value in do loop, the loop will stop. However the index variable will be stored as it's latest number.
+- Question (llopez37-stat660) would the output by year always be plus one? 
+- Answer (llopez37-stat660) it seems that this is the case with compound type outputs
 
 
 
@@ -75,6 +82,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): What will happen if I add output outside the Do loop?
 * Question (yli110-stat660): How does the OUTPUT in DO loop change the stored value of the index variable?
 * Answer (yli110-stat660): Without the OUTPUT statement, index variable exceeds the stop value, and the loop writes out the observation with which the index has already exceeds the stop value. With OUTPUT statement, on the other hand, writes observations out at end of each iteration, thus the last observation will include the index variable with the stop value.
+- Question (llopez37-stat660) why is this one not outputting 2005?
 
 
 
@@ -87,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jduan10-stat660): How to separate items in the do loop series?
 - Answer (jduan10-stat660): Use comma to separate.
 * Question (yli110-stat660): How does SAS determine the number of observations written out in the OUTPUT statement in DO loop?
+- Question (llopez37-stat660) If this was a question based on year would it be 21 instead of 20?
 
 
 
@@ -97,6 +106,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) :When will nested DO loops work ?
 - Question (jduan10-stat660): What is the difference between DO WHILE and DO UNTIL?
 * Question (yli110-stat660): When do you use nested DO loops?
+- Question (llopez37-stat660) Would this be the only way to go about it or is this just the best method? 
 
 
 
@@ -109,6 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : No. DO WHILE loop is evaluated at the top of the loop, you specify the condition that must exist in order to execute the enclosed statements.
 - Question (jduan10-stat660): Is there index variable in DO UNTIL?
 * Question (yli110-stat660): What is the difference between DO UNTIL and DO WHILE?
+- Question (llopez37-stat660) This is why it doesnt add a plus one to the 1 through 20 then correct? 
 
 
 
@@ -121,6 +132,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : "gt" means "greater than"
 - Question (jduan10-stat660): When does DO WHILE step stop?
 * Question (yli110-stat660): How do you manipulate DO UNTIL and DO WHILE for them to produce the same results?
+- Question (llopez37-stat660) is le less than or equal to? 
 
 
 
@@ -133,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : No. Using "DO WHILE" and "DO UNTIL" instead
 - Question (jduan10-stat660): Can we use do loop within another do loop?
 * Question (yli110-stat660): What the difference of DO UNITL and DO WHILE in terms of the number of executions of the loop?
+- Question (llopez37-stat660) how does the while versus until statement differ? 
 
 
 
@@ -144,5 +157,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : What if we want to change the values of a specific row in the iris dataset ? 
 - Question (jduan10-stat660): How can we process date type columns in SQL?
 * Question (yli110-stat660): What is the difference between DDL and DML?
+- Question (llopez37-stat660) is this purely for aesthetics and ingesting the formats?
 
 
