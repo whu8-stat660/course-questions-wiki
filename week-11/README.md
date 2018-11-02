@@ -18,45 +18,59 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 1]
+- Question (llopez37-stat660) Is there a way to combine these steps like we do with nested do loops?
+- Answer (llopez37-stat660) It seems like you cannot do this 
 
 
 
 [Course Textbook Chapter 15, Problem 2]
+- Question (llopez37-stat660) It only tries to execute a plus one step but it does not count is that the case here? 
+- Answer (llopez37-stat660) yes this is what google has explained that it attempts it but fails
 
 
 
 [Course Textbook Chapter 15, Problem 3]
+- Question (llopez37-stat660) could we replace the 10% with the by statement? 
 
 
 
 [Course Textbook Chapter 15, Problem 4]
+- Question (llopez37-stat660) would the output by year always be plus one? 
+- Answer (llopez37-stat660) it seems that this is the case with compound type outputs
 
 
 
 [Course Textbook Chapter 15, Problem 5]
+- Question (llopez37-stat660) why is this one not outputting 2005?
 
 
 
 [Course Textbook Chapter 15, Problem 6]
+- Question (llopez37-stat660) If this was a question based on year would it be 21 instead of 20?
 
 
 
 [Course Textbook Chapter 15, Problem 7]
+- Question (llopez37-stat660) Would this be the only way to go about it or is this just the best method? 
 
 
 
 [Course Textbook Chapter 15, Problem 8]
+- Question (llopez37-stat660) This is why it doesnt add a plus one to the 1 through 20 then correct? 
 
 
 
 [Course Textbook Chapter 15, Problem 9]
+- Question (llopez37-stat660) is le less than or equal to? 
 
 
 
 [Course Textbook Chapter 15, Problem 10]
+- Question (llopez37-stat660) how does the while versus until statement differ? 
 
 
 
 [Week 11 SAS Recipe: ddl-and-dml-sql-queries]
+- Question (llopez37-stat660) is this purely for aesthetics and ingesting the formats?
 
 
