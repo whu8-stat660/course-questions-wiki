@@ -18,34 +18,43 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
+* Question (yli110-stat660): What types of elements can be put into an array?
+* Answer (yli110-stat660): Either numeric or characteristic, as long as all the variables in the same array have same type.
 
 
 
 [Course Textbook Chapter 16, Problem 2]
+* Question (yli110-stat660): How do you define the dimentions of arrays in SAS?
 
 
 
 [Course Textbook Chapter 16, Problem 3]
+* Question (yli110-stat660): How do you reference elements in an array?
 
 
 
 [Course Textbook Chapter 16, Problem 4]
+* Question (yli110-stat660): What's the purpose of DIM function? And how do you use it in the DO loop?
 
 
 
 [Course Textbook Chapter 16, Problem 5]
+* Question (yli110-stat660): How to assign initial values for elements in an array?
 
 
 
 [Course Textbook Chapter 16, Problem 6]
+* Question (yli110-stat660): How do you use the array to create variables in SAS DATA step?
 
 
 
 [Course Textbook Chapter 16, Problem 7]
+* Question (yli110-stat660): How do you create a temperary array that will only be used to do calcuation, and not to be included in output data sets?
 
 
 
 [Course Textbook Chapter 16, Problem 8]
+* Question (yli110-stat660): What do you do differently when create an array with characteristic values?
 
 
 
