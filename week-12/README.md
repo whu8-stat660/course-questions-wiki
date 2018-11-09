@@ -54,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mphan12-stat660): How are temperary arrays for calcuation created?
 
 
+
 [Course Textbook Chapter 16, Problem 8]
 - Question (mphan12-stat660): When do you use temporary arrays?
 - Answer (mphan12-stat660): Temporary arrays are often used to perform calculation.
