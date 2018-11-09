@@ -18,54 +18,57 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 16, Problem 1]
-What's the use of an ARRAY statement?
-An ARRAY statement is used to define an array which could be referenced later.
+- Question (whu8-stat660):What's the use of an ARRAY statement?
+- Answer (whu8-stat660):An ARRAY statement is used to define an array which could be referenced later.
 
 
 
 [Course Textbook Chapter 16, Problem 2]
-What's the meaning of the parameter in the braces of an ARRAY statement?
-It indicates the number of elements in the array.
+- Question (whu8-stat660):What's the meaning of the parameter in the braces of an ARRAY statement?
+- Answer (whu8-stat660):It indicates the number of elements in the array.
 
 
 
 [Course Textbook Chapter 16, Problem 3]
-Can the WHILE or UNTIL clause be used in the DO statment which included in an ARRAY statement?
-I don't think so.
+- Question (whu8-stat660):Can the WHILE or UNTIL clause be used in the DO statment which included in an ARRAY statement?
+- Answer (whu8-stat660):I don't think so.
 
 
 
 [Course Textbook Chapter 16, Problem 4]
-How the index value is determined?
-The index value is determined by the position of the array element.
+- Question (whu8-stat660):How the index value is determined?
+- Answer (whu8-stat660):The index value is determined by the position of the array element.
 
 
 
 [Course Textbook Chapter 16, Problem 5]
-What's the use of DIM funcion with array name?
-The DIM functions with the array name as the argument to process all the elements in an array.
+- Question (whu8-stat660):What's the use of DIM funcion with array name?
+- Answer (whu8-stat660):The DIM functions with the array name as the argument to process all the elements in an array.
 
 
 
 [Course Textbook Chapter 16, Problem 6]
-What the default length of character variables created in an ARRAY statement?
-Eight.
+- Question (whu8-stat660):What the default length of character variables created in an ARRAY statement?
+- Answer (whu8-stat660):Eight.
 
 
 
 [Course Textbook Chapter 16, Problem 7]
-Can two array statements use the same index?
-Yes.
+- Question (whu8-stat660):Can two array statements use the same index?
+- Answer (whu8-stat660):Yes.
+
 
 
 [Course Textbook Chapter 16, Problem 8]
-What's temporary array elements?
+- Question (whu8-stat660):What's temporary array elements?
+
 
 
 [Week 12 SAS Recipe: recipe_to_disaggregate_counts_data]
-Why "where not(missing(Enrollment_K12))' is needed in the recipe?
+- Question (whu8-stat660):Why "where not(missing(Enrollment_K12))' is needed in the recipe?
+
 
 
 [Week 12 SAS Recipe: recipe_to_create_unique_record_id]
-How to create unique record id in SAS?
+- Question (whu8-stat660):How to create unique record id in SAS?
 
