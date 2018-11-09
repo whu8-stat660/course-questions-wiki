@@ -69,6 +69,3 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) How strong is the disaggregate capabilities as in can you disaggregate code that you did not manipulate yourself or do not have the raw data set? 
 
 
-
-
-
