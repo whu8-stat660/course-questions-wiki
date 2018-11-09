@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) :  DATA step statements are executable or declarative statements that can appear in the DATA step. Executable statements result in some action during individual iterations of the DATA step; declarative statements supply information to SAS and take effect when the system compiles program statements. ARRAY statement is a declarative statement.
 - Question (mphan12-stat660): What is an "declarative statement"?
 - Answer (mphan12-stat660):  DATA step statements are executable or declarative statements that can appear in the DATA step. Declarative statements supply information to SAS and take effect when the system compiles program statements. ARRAY statement is a declarative statement.
+- Question (whu8-stat660):What's the use of an ARRAY statement?
+- Answer (whu8-stat660):An ARRAY statement is used to define an array which could be referenced later.
 
 
 
@@ -35,6 +37,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : It the cases we can not define how many elements in the array, what should we put in the braces ? 
 - Answer (anguyen152-stat660) : We can put a '*'
 - Question (mphan12-stat660): How do you define the dimentions of arrays in SAS?
+- Question (whu8-stat660):What's the meaning of the parameter in the braces of an ARRAY statement?
+- Answer (whu8-stat660):It indicates the number of elements in the array.
 
 
 
@@ -44,6 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : Why "do until" statement doesnt work in this case ? Are "do i=1 to 4;"
 "do until i=4;" not the same meaning ? 
 - Question (mphan12-stat660): How do you reference elements in an array?
+- Question (whu8-stat660):Can the WHILE or UNTIL clause be used in the DO statment which included in an ARRAY statement?
+- Answer (whu8-stat660):I don't think so.
 
 
 
@@ -52,6 +58,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): What's the purpose of DIM function? And how do you use it in the DO loop?
 - Question (anguyen152-stat660) : Is index=0 not applied in SAS ?  
 - Question (mphan12-stat660): What is the purpose of DIM function? 
+- Question (whu8-stat660):How the index value is determined?
+- Answer (whu8-stat660):The index value is determined by the position of the array element.
 
 
 
@@ -63,6 +71,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : DIM(array-name)
 - Question (mphan12-stat660): What is the correct syntax for DIM function?
 - Answer (mphan12-stat660): DIM(array-name)
+- Question (whu8-stat660):What's the use of DIM funcion with array name?
+- Answer (whu8-stat660):The DIM functions with the array name as the argument to process all the elements in an array.
 
 
 
@@ -73,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) :No. All variables that are associated with an array must be of the same type
 - Question (mphan12-stat660): Can you have combination of numeric and character variables in an array?
 - Answer (mphan12-stat660): No. All variables that are associated with an array must be of the same type.
+- Question (whu8-stat660):What the default length of character variables created in an ARRAY statement?
+- Answer (whu8-stat660):Eight.
 
 
 
@@ -82,6 +94,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (yli110-stat660): How do you create a temperary array that will only be used to do calcuation, and not to be included in output data sets?
 - Question (anguyen152-stat660) : Why the dimension of diff array is 9 in this case ? "diff{9}"
 - Question (mphan12-stat660): How are temperary arrays for calcuation created?
+- Question (whu8-stat660):Can two array statements use the same index?
+- Answer (whu8-stat660):Yes.
 
 
 
@@ -92,6 +106,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : Temporary arrays are often used to perform calculation.
 - Question (mphan12-stat660): When do you use temporary arrays?
 - Answer (mphan12-stat660): Temporary arrays are often used to perform calculation.
+- Question (whu8-stat660):What's temporary array elements?
 
 
 
@@ -102,6 +117,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : What variable is disaggregated and what are the output variables in this example ?
 - Question (mphan12-stat660): What is the purposes to diaggregate datasets?
 - Answer (mphan12-stat660): With diaggregation, you can get individual observations in an aggregated group. Even though that the name and other personal info is not available, the id alone is sufficient enough to indicate one person.
+- Question (whu8-stat660):Why "where not(missing(Enrollment_K12))' is needed in the recipe?
 
 
 
@@ -113,5 +129,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (anguyen152-stat660) : This statement is used to created unique record id with unique name "school_record-_N_" for example with _N_=15, the id will be school_record-000015
 - Question (mphan12-stat660): How do you use the automatic variable _N_ to create unique ID for each observation?
 - Answer (mphan12-stat660):  _N_ is created and added automatically into the pdv. Create a variable and set it equal to _N_.
+- Question (whu8-stat660):How to create unique record id in SAS?
 
 
