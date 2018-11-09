@@ -59,9 +59,13 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 12 SAS Recipe: recipe_to_disaggregate_counts_data]
+* Question (yli110-stat660): How do you diaggregate datasets? And what are the purposes to diaggregate datasets?
+* Answer (yli110-stat660): Diaggregation is achieved by DO loop, which has one variable as index, and the second variable in the loop is set as a = a + 1 to indicate that the ids are increasing by 1. With diaggregation, you can get individual observations in an aggregated group. Even though that the name and other personal info is not available, the id alone is sufficient enough to indicate one person.
 
 
 
 [Week 12 SAS Recipe: recipe_to_create_unique_record_id]
+* Question (yli110-stat660): How do you use the automatic variable __N__ to create unique ID for each observation?
+* Answer (yli110-stat660): __N__ is created and added automatically into the pdv, and it can be used in any calculations as a numeric variable. Thus by assigning the __N__ value to the ID variable, you are all set.
 
 
