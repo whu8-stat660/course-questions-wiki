@@ -18,22 +18,31 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 17, Problem 1]
+* Question(yli110-stat660): What is the difference between column input and formatted input?
+* Answer(yli110-stat660): Column input is used for reading standard values only, and formatted input can be used to read both standard and nonstandard data in fixed fields.
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+* Question(yli110-stat660): What is the informat you use to read in a character value?
+* Answer(yli110-stat660): $w.
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+* Question(yli110-stat660): How many ways can you use to locate the positions of pointer control in formatted input?
+* Answer(yli110-stat660): You could use either @n or +(-)n.
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+* Question(yli110-stat660): What's the purpose of using informat COMMAw.d?
+* Answer(yli110-stat660): First to read data in, second it removes any special signs like dollar sign, comma, percent et al.
 
 
 
 [Course Textbook Chapter 17, Problem 9]
+* Question(yli110-stat660): What's the order of variables that SAS reads from the raw files?
 
 
 
