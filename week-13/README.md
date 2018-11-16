@@ -18,29 +18,39 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (llopez37-stat660) would we get different results if we switch which data set is first versus second?
+- Answer (llopez37-stat660) it seems only difference is the order in which it is read in
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (llopez37-stat660) Do all the observations also get replaced with the new datasets?
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (llopez37-stat660) In what order would the rename statement go? 
 
 
 
-[Course Textbook Chapter 17, Problem 8]
+[Course Textbook Chapter 17, Problem 8] 
+- Question (llopez37-stat660) What syntax would we use to sort the data? 
 
 
 
 [Course Textbook Chapter 17, Problem 9]
+- Question (llopez37-stat660) why do some observations appear such as ( . ) veruss a blank statement?
+- Answer (llopez37-stat660) This is based off of character and numeric variable. 
 
 
 
 [Week 13 SAS Recipe: basic_recipe_to_load_remote_delimited_file]
+- Question (llopez37-stat660) Why not just save the data in a comma delimited file version?
 
 
 
 [Week 13 SAS Recipe: adv_recipe_to_load_remote_delimited_file]
+- Question (llopez37-stat660) Is this in order to read the data into a proper data set and have the columns properly aligned? 
+- Answer (llopez37-stat660) It seems this is the case as to avoid improper reading of the file
 
 
