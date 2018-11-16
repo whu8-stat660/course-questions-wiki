@@ -18,29 +18,42 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (mphan12-stat660): What is the difference between column and formatted inputs?
+- Answer (mphan12-stat660): Column input is used for reading standard values only, and formatted input can be used to read both standard and non-standard fixed fields.
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (mphan12-stat660): What does 'w' represent in the $w informat?
+- Answer (mphan12-stat660): The w represents the field width.
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (mphan12-stat660): What are the possible ways to locate the positions of the pointer control in formatted input?
+- Answer (mphan12-stat660):  @n or +(-)n can locate the positions of the pointer control.
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question (mphan12-stat660): What does the COMMAw.d function do?
+- Answer (mphan12-stat660): The COMMAw.d informat strips out special characters (commas, dollar signs, and percent signs) from a numeric data and stores only numeric values in a SAS data set.
 
 
 
 [Course Textbook Chapter 17, Problem 9]
+- Question (mphan12-stat660): What does the d in "w.d" informat represent?
+- Answer (mphan12-stat660): The w specifies the field width of the raw data value, the period serves as a delimiter,and the d specifies the number of implied decimal places for the value.
 
 
 
 [Week 13 SAS Recipe: basic_recipe_to_load_remote_delimited_file]
+- Question (mphan12-stat660): What is the DELIMITER statement for importing a tab-separated values file?
+- Answer (mphan12-stat660): "09"x
 
 
 
 [Week 13 SAS Recipe: adv_recipe_to_load_remote_delimited_file]
+- Question (mphan12-stat660): What is the purpose of "informat" when reading in raw data?
 
 
