@@ -47,9 +47,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Week 13 SAS Recipe: basic_recipe_to_load_remote_delimited_file]
+* Question(yli110-stat660): What the DELIMITER statement should be if you want to import a tab-separated values file?
 
 
 
 [Week 13 SAS Recipe: adv_recipe_to_load_remote_delimited_file]
+* Question(yli110-stat660): What are the basic statements in the DATA step when you try to read temporary data files into SAS?
+* Answer(yli110-stat660): Despite DATA, you still need INFILE, INFORMAT, and INPUT to get data into SAS.
 
 
