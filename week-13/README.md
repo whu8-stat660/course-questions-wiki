@@ -18,29 +18,41 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 17, Problem 1]
+- Question (anguyen152-stat660) : Why dont I see any "@" here ? 
 
 
 
 [Course Textbook Chapter 17, Problem 5]
+- Question (anguyen152-stat660) : How to use input function to read characters ? 
+- Answer (anguyen152-stat660) : Using the dollar sign ($) before the w value 
 
 
 
 [Course Textbook Chapter 17, Problem 7]
+- Question (anguyen152-stat660) : Why do we have to "+6" but not "+7" in this case ? 
 
 
 
 [Course Textbook Chapter 17, Problem 8]
+- Question (anguyen152-stat660) : Why dont we need to define the "d" value here ? 
+- Answer (anguyen152-stat660) : Because the data value contains decimal places, a d value is not needed.
 
 
 
 [Course Textbook Chapter 17, Problem 9]
+- Question (anguyen152-stat660) : What should be noted when using COMMAw.d function ? 
+- Answer (anguyen152-stat660) : A period should always follow the "w."
 
 
 
 [Week 13 SAS Recipe: basic_recipe_to_load_remote_delimited_file]
+- Question (anguyen152-stat660) : Why there are so many "invalid data.." notification when I ran this example ? 
 
 
 
 [Week 13 SAS Recipe: adv_recipe_to_load_remote_delimited_file]
+- Question (anguyen152-stat660) : How the "informat" and "input" functions are used here ? 
+- Answer (anguyen152-stat660) : The informat statement sets each column type to character-values with width 100.  The input statement specifies the columns to have their values read and
+must appear in the same order as the columns appear in the input dataset.
 
 
