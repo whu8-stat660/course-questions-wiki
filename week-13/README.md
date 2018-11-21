@@ -19,34 +19,44 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 17, Problem 1]
 - Question (anguyen152-stat660) : Why dont I see any "@" here ? 
+* Question(yli110-stat660): What is the difference between column input and formatted input?
+* Answer(yli110-stat660): Column input is used for reading standard values only, and formatted input can be used to read both standard and nonstandard data in fixed fields.
 
 
 
 [Course Textbook Chapter 17, Problem 5]
 - Question (anguyen152-stat660) : How to use input function to read characters ? 
 - Answer (anguyen152-stat660) : Using the dollar sign ($) before the w value 
+* Question(yli110-stat660): What is the informat you use to read in a character value?
+* Answer(yli110-stat660): $w.
 
 
 
 [Course Textbook Chapter 17, Problem 7]
 - Question (anguyen152-stat660) : Why do we have to "+6" but not "+7" in this case ? 
+* Question(yli110-stat660): How many ways can you use to locate the positions of pointer control in formatted input?
+* Answer(yli110-stat660): You could use either @n or +(-)n.
 
 
 
 [Course Textbook Chapter 17, Problem 8]
 - Question (anguyen152-stat660) : Why dont we need to define the "d" value here ? 
 - Answer (anguyen152-stat660) : Because the data value contains decimal places, a d value is not needed.
+* Question(yli110-stat660): What's the purpose of using informat COMMAw.d?
+* Answer(yli110-stat660): First to read data in, second it removes any special signs like dollar sign, comma, percent et al.
 
 
 
 [Course Textbook Chapter 17, Problem 9]
 - Question (anguyen152-stat660) : What should be noted when using COMMAw.d function ? 
 - Answer (anguyen152-stat660) : A period should always follow the "w."
+* Question(yli110-stat660): What's the order of variables that SAS reads from the raw files?
 
 
 
 [Week 13 SAS Recipe: basic_recipe_to_load_remote_delimited_file]
 - Question (anguyen152-stat660) : Why there are so many "invalid data.." notification when I ran this example ? 
+* Question(yli110-stat660): What the DELIMITER statement should be if you want to import a tab-separated values file?
 
 
 
@@ -54,5 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (anguyen152-stat660) : How the "informat" and "input" functions are used here ? 
 - Answer (anguyen152-stat660) : The informat statement sets each column type to character-values with width 100.  The input statement specifies the columns to have their values read and
 must appear in the same order as the columns appear in the input dataset.
+* Question(yli110-stat660): What are the basic statements in the DATA step when you try to read temporary data files into SAS?
+* Answer(yli110-stat660): Despite DATA, you still need INFILE, INFORMAT, and INPUT to get data into SAS.
 
 
