@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) it seems only difference is the order in which it is read in
 - Question (whu8-stat660):Are beginning and ending column locations needed to be specified in the column input statement?
 - Answer (whu8-stat660):Yes, but if it starts in column 1 which is the default column pointer location, the beginning column location doesn't need to be specified.
+- Question (mphan12-stat660): What is the difference between column and formatted inputs?
+- Answer (mphan12-stat660): Column input is used for reading standard values only, and formatted input can be used to read both standard and non-standard fixed fields.
 
 
 
@@ -36,6 +38,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) Do all the observations also get replaced with the new datasets?
 - Question (whu8-stat660):What does 'w' represent in the '$w' informat?
 - Answer (whu8-stat660):The w represents the field width of the data value or the total number of columns that contain the raw data field.
+- Question (mphan12-stat660): What does 'w' represent in the $w informat?
+- Answer (mphan12-stat660): The w represents the field width.
 
 
 
@@ -46,6 +50,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) In what order would the rename statement go? 
 - Question (whu8-stat660):How the +n pointer control works?
 - Answer (whu8-stat660):It moves the pointer ahead with n columns.
+- Question (mphan12-stat660): What are the possible ways to locate the positions of the pointer control in formatted input?
+- Answer (mphan12-stat660):  @n or +(-)n can locate the positions of the pointer control.
 
 
 
@@ -58,6 +64,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (llopez37-stat660) What syntax would we use to sort the data? 
 - Question (whu8-stat660):What's the use of COMMAw.d informat?
 - Answer (whu8-stat660):The COMMAw.d informat strips out special characters, such as commas,dollar signs, and percent signs, from numeric data and stores only numeric values in a SAS data set.
+- Question (mphan12-stat660): What does the COMMAw.d function do?
+- Answer (mphan12-stat660): The COMMAw.d informat strips out special characters (commas, dollar signs, and percent signs) from a numeric data and stores only numeric values in a SAS data set.
 
 
 
@@ -69,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (llopez37-stat660) This is based off of character and numeric variable. 
 - Question (whu8-stat660):How to use the w.d informat to read standard numeric data?
 - Answer (whu8-stat660):The w specifies the field width of the raw data value, the period serves as a delimiter,and the d specifies the number of implied decimal places for the value.
+- Question (mphan12-stat660): What does the d in "w.d" informat represent?
+- Answer (mphan12-stat660): The w specifies the field width of the raw data value, the period serves as a delimiter,and the d specifies the number of implied decimal places for the value.
 
 
 
@@ -77,6 +87,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question(yli110-stat660): What the DELIMITER statement should be if you want to import a tab-separated values file?
 - Question (llopez37-stat660) Why not just save the data in a comma delimited file version?
 - Question (whu8-stat660):What's the meaning of 'dbms'?
+- Question (mphan12-stat660): What is the DELIMITER statement for importing a tab-separated values file?
+- Answer (mphan12-stat660): "09"x
 
 
 
@@ -90,5 +102,6 @@ must appear in the same order as the columns appear in the input dataset.
 - Answer (llopez37-stat660) It seems this is the case as to avoid improper reading of the file
 - Question (whu8-stat660):What the use of the input statement?
 - Answer (whu8-stat660):The input statement specifies the columns to have their values read and must appear in the same order as the columns appear in the input dataset.
+- Question (mphan12-stat660): What is the purpose of "informat" when reading in raw data?
 
 
