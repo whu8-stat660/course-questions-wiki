@@ -18,43 +18,70 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 18, Problem 1]
+- Question (jduan10-stat660): What is the default delimiter in list input.?
+- Answer (jduan10-stat660): Blank is default.
+- Question (mphan12-stat660):  What is the default delimiter "dlm"?
+- Answer (mphan12-stat660): Blank spaces.
 * Question (yli110-stat660): What are free-format raw files?
 
 
 
 [Course Textbook Chapter 18, Problem 2]
+- Question (jduan10-stat660): Why column input is an appropriate choice for first field?
+- Answer (jduan10-stat660): because the values can be read as standard character values and are located in fixed columns.
+- Question (mphan12-stat660):  What are the different input style?
 * Question (yli110-stat660): What kind of input should you use for free-format data?
 * Answer (yli110-stat660): list input.
 
 
 
 [Course Textbook Chapter 18, Problem 4]
+- Question (jduan10-stat660): Does “length” step need to follow the “infile” step?
+- Question (mphan12-stat660):  What is the difference between input FirstName $ 1-4 and input FirstName $?
 * Question (yli110-stat660): How do you use list input to read raw data into SAS?
 
 
 
 [Course Textbook Chapter 18, Problem 5]
+- Question (jduan10-stat660): How do SAS scan data with list input?
+- Answer (jduan10-stat660): List input causes SAS to scan the input lines for values rather than reading from specific columns.
+- Question (mphan12-stat660):  What does the dlm statement do?
 * Question (yli110-stat660): How do you define : as delimiter?
 * Answer (yli110-stat660): by using the option dlm=':' in INFILE statement.
 
 
 
 [Course Textbook Chapter 18, Problem 7]
+- Question (jduan10-stat660): When does SAS stop reading raw data?
+- Answer (jduan10-stat660): SAS reads until it encounters two consecutive blanks, the defined length of the variable, or the end of the input line, whichever comes first.
+- Question (mphan12-stat660):  How does SAS know to continue onto the next line?
+- Answer (mphan12-stat660):  SAS reads the first field until it encounters a blank space. The blank space indicates the end of the field, and the data value is assigned to the program data vector for the first variable in the INPUT statement.
 * Question (yli110-stat660): What is the appropriate position of LENGTH statement when you want to override the default length of a variable?
 * Answer (yli110-stat660): LENGTH should preceed the INPUT statement.
 
 
 
 [Course Textbook Chapter 18, Problem 8]
+- Question (jduan10-stat660): What values are suitable for using list input?
+- Answer (jduan10-stat660): The last field values.
+- Question (mphan12-stat660):  What values are suitable for using list input?
+- Answer (mphan12-stat660):  The last field values.
 * Question (yli110-stat660): What are two modified list input?
 * Answer (yli110-stat660): & and :
 
 
 
 [Course Textbook Chapter 18, Problem 10]
+- Question (jduan10-stat660): Can we specify a range of variables using formatted input?
+- Question (mphan12-stat660): When are variable attributes defined? 
+- Answer (mphan12-stat660):  When the variable is first encountered in the DATA step.
 * Question (yli110-stat660): What are the differences between column, formatted and list input?
 
 
 
 [Week 15 SAS Recipe: summarize-data-using-sql]
+- Question (jduan10-stat660): What is the function of  “*” in the PROC SQL statement?
+- Question (mphan12-stat660):  What does the statement "having" in proc sql do?
 * Question (yli110-stat660): How do you use SQL to summarise data in SAS?
+
+
