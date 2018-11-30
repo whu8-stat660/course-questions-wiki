@@ -18,33 +18,46 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 18, Problem 1]
+- Question (jduan10-stat660): What is the default delimiter in list input.?
+- Answer (jduan10-stat660): Blank is default.
 
 
 
 [Course Textbook Chapter 18, Problem 2]
+- Question (jduan10-stat660): Why column input is an appropriate choice for first field?
+- Answer (jduan10-stat660): because the values can be read as standard character values and are located in fixed columns.
 
 
 
 [Course Textbook Chapter 18, Problem 4]
+- Question (jduan10-stat660): Does “length” step need to follow the “infile” step?
 
 
 
 [Course Textbook Chapter 18, Problem 5]
+- Question (jduan10-stat660): How do SAS scan data with list input?
+- Answer (jduan10-stat660): List input causes SAS to scan the input lines for values rather than reading from specific columns.
 
 
 
 [Course Textbook Chapter 18, Problem 7]
+- Question (jduan10-stat660): When does SAS stop reading raw data?
+- Answer (jduan10-stat660): SAS reads until it encounters two consecutive blanks, the defined length of the variable, or the end of the input line, whichever comes first.
 
 
 
 [Course Textbook Chapter 18, Problem 8]
+- Question (jduan10-stat660): What values are suitable for using list input?
+- Answer (jduan10-stat660): The last field values.
 
 
 
 [Course Textbook Chapter 18, Problem 10]
+- Question (jduan10-stat660): Can we specify a range of variables using formatted input?
 
 
 
 [Week 15 SAS Recipe: summarize-data-using-sql]
+- Question (jduan10-stat660): What is the function of  “*” in the PROC SQL statement?
 
 
