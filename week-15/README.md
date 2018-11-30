@@ -18,33 +18,45 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 18, Problem 1]
+- Question (mphan12-stat660):  What is the default delimiter "dlm"?
+- Answer (mphan12-stat660): Blank spaces.
 
 
 
 [Course Textbook Chapter 18, Problem 2]
+- Question (mphan12-stat660):  What are the different input style?
 
 
 
 [Course Textbook Chapter 18, Problem 4]
+- Question (mphan12-stat660):  What is the difference between input FirstName $ 1-4 and input FirstName $?
 
 
 
 [Course Textbook Chapter 18, Problem 5]
+- Question (mphan12-stat660):  What does the dlm statement do?
 
 
 
 [Course Textbook Chapter 18, Problem 7]
+- Question (mphan12-stat660):  How does SAS know to continue onto the next line?
+- Answer (mphan12-stat660):  SAS reads the first field until it encounters a blank space. The blank space indicates the end of the field, and the data value is assigned to the program data vector for the first variable in the INPUT statement.
 
 
 
 [Course Textbook Chapter 18, Problem 8]
+- Question (mphan12-stat660):  What values are suitable for using list input?
+- Answer (mphan12-stat660):  The last field values.
 
 
 
 [Course Textbook Chapter 18, Problem 10]
+- Question (mphan12-stat660): When are variable attributes defined? 
+- Answer (mphan12-stat660):  When the variable is first encountered in the DATA step.
 
 
 
 [Week 15 SAS Recipe: summarize-data-using-sql]
+- Question (mphan12-stat660):  What does the statement "having" in proc sql do?
 
 
