@@ -18,33 +18,43 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 18, Problem 1]
+* Question (yli110-stat660): What are free-format raw files?
 
 
 
 [Course Textbook Chapter 18, Problem 2]
+* Question (yli110-stat660): What kind of input should you use for free-format data?
+* Answer (yli110-stat660): list input.
 
 
 
 [Course Textbook Chapter 18, Problem 4]
+* Question (yli110-stat660): How do you use list input to read raw data into SAS?
 
 
 
 [Course Textbook Chapter 18, Problem 5]
+* Question (yli110-stat660): How do you define : as delimiter?
+* Answer (yli110-stat660): by using the option dlm=':' in INFILE statement.
 
 
 
 [Course Textbook Chapter 18, Problem 7]
+* Question (yli110-stat660): What is the appropriate position of LENGTH statement when you want to override the default length of a variable?
+* Answer (yli110-stat660): LENGTH should preceed the INPUT statement.
 
 
 
 [Course Textbook Chapter 18, Problem 8]
+* Question (yli110-stat660): What are two modified list input?
+* Answer (yli110-stat660): & and :
 
 
 
 [Course Textbook Chapter 18, Problem 10]
+* Question (yli110-stat660): What are the differences between column, formatted and list input?
 
 
 
 [Week 15 SAS Recipe: summarize-data-using-sql]
-
-
+* Question (yli110-stat660): How do you use SQL to summarise data in SAS?
