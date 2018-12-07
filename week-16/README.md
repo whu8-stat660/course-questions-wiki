@@ -66,30 +66,37 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 21, Problem 1]
-
+* Question (yli110-stat660): What is the major difference between (@) and (@@)?
+* Answer (yli110-stat660): @@ holds a record across multiple iterations of DATA steps until the end of the record is reached, while @ releases a record when control returns to the top of the DATA step.
 
 
 
 [Course Textbook Chapter 21, Problem 2]
+* Question (yli110-stat660): When does @@ release a record?
+* Answer (yli110-stat660): the input pointer moves past the end of the record, or until an INPUT statement without line-hold specifiers executed.
 
 
 
 [Course Textbook Chapter 21, Problem 3]
+* Question (yli110-stat660): When does @ release a record?
+* Answer( (yli110-stat660): @ doesn't toggle on and off, if another INPUT without tailing @ executed, the hold is still effective. It will automatically release the record when control returns to the top of the DATA step.
 
 
 
 [Course Textbook Chapter 21, Problem 4]
+* Question (yli110-stat660): Where should you put @ or @@?
 
 
 
 [Course Textbook Chapter 21, Problem 6]
+* Question (yli110-stat660): How do you use OUTPUT statement to control the observation outputted to the SAS data file?
 
 
 
 [Course Textbook Chapter 21, Problem 10]
+* Question (yli110-stat660): What does MISSOVER option in the INFILE statement do?
 
 
 
 [Week 16 SAS Recipe: summarize-data-using-proc-report]
-
-
+* Question (yli110-stat660): How do you use PROC REPORT to summarize data? What is the difference between PROC REPORT and PROC SQL when summarizing data?
