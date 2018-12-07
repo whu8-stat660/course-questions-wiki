@@ -18,42 +18,55 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 20, Problem 1]
+* Question (yli110-stat660): How do you specify the record from which values are read if information for one observation was spread out over several records?
+* Answer (yli110-stat660): line pointer controls
 
 
 
 [Course Textbook Chapter 20, Problem 2]
+* Question (yli110-stat660): What is the purpose of forward slash (/) line pointer control?
+* Answer (yli110-stat660): read multiple records sequentially.
 
 
 
 [Course Textbook Chapter 20, Problem 3]
+* Question (yli110-stat660): What is the purpose of #n line pointer control?
+* Answer (yli110-stat660): read multiple records non-sequentially.
 
 
 
 [Course Textbook Chapter 20, Problem 4]
+* Question (yli110-stat660): Where should you place the (/) line pointer control?
 
 
 
 [Course Textbook Chapter 20, Problem 5]
+* Question (yli110-stat660): What is the difference between #n, @n and +n?
 
 
 
 [Course Textbook Chapter 20, Problem 6]
+* Question (yli110-stat660): What is the reason that the number of records for each observation should be the same?
 
 
 
 [Course Textbook Chapter 20, Problem 7]
+* Question (yli110-stat660): When do you use the & modifier for modified list input?
 
 
 
 [Course Textbook Chapter 20, Problem 8]
+* Question (yli110-stat660): What are the two kinds of line pointer controls?
 
 
 
 [Course Textbook Chapter 20, Problem 9]
+* Question (yli110-stat660): What is the purpose of using (:) modifier in modified list input?
 
 
 
 [Course Textbook Chapter 21, Problem 1]
+
 
 
 
