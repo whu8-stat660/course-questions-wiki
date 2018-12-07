@@ -100,3 +100,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [Week 16 SAS Recipe: summarize-data-using-proc-report]
 * Question (yli110-stat660): How do you use PROC REPORT to summarize data? What is the difference between PROC REPORT and PROC SQL when summarizing data?
+
+
